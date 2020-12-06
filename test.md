@@ -4,3 +4,4 @@
 * Name NASTAVNIK [Dmitriy]
 * Your work [frontend-разработчик]
 * ^_^ 
+* (Test complet)
