@@ -1,0 +1,356 @@
+/* Index*/
+
+/* Секция с Монстром */
+.main {
+    padding-top: 69px;
+}
+
+.lead {
+    width: 61px;
+    height: 74px;
+    margin-left: 29px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+    color: #1e06060d;
+}
+/* Линии */
+.line-black { 
+    width: 31px;
+    height: 3px;
+    background-image: url(../img/line2.png);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.line-black:hover {
+    background-image: url(../img/line2.png);
+}
+
+.line {
+    width: 31px;
+    height: 3px;
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.line:hover {
+    background-image: url(../img/line2.png);
+}
+
+.line-slide {
+    width: 31px;
+    height: 3px;
+    margin-bottom: 11px;
+}
+
+/*  */
+.monstr-title {
+    width: 307px;
+    text-align: start;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+.button-monstr {
+    padding: 0px;
+    margin-top: 20px;
+    width: 161px;
+    height: 40px;
+    border: none;
+
+}
+.monstr-paragraf {
+    margin-top: 20px;
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+}
+.line-paragraf {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 89px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.line-list-wrapper {
+    margin-left: 29px;
+}
+
+.monstr-title-wrapper {
+    margin-left: 71px;
+   
+}
+.monstr-title-wrapper::after { 
+    content: '';
+    position: absolute;
+    display: block;
+    right: 92px;
+    top: -179px;
+    width: 636px;
+    height: 461px;
+    background: url(../img/monstr.png) no-repeat;
+    z-index: 0;
+}
+.page-monstr {
+    background-color: #EEE4DB;
+
+}
+  
+
+.line-monstr-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.line-paragraf {
+    background-color: #C29974;
+}
+/* Секция с Категориями*/
+.category {
+    margin-top: 90px;
+}
+.categoty-title {
+    text-align: left;
+  
+  }
+
+.category-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+  }
+
+  /* картинки */
+.shirt {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #DBE4DB;
+   
+}
+.shirt-text {
+    position: absolute;
+    display: inline-block;
+    top: 103px;
+    right: 76px;
+    width: 129px;
+}
+.sock {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #EADDD3;
+}
+.sock-text {
+    position: absolute;
+    display: inline-block;
+    top: 103px;
+    right: 76px;
+    width: 129px;
+}
+.deer {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #F8F2DA;
+}
+.deer-text {
+    position: absolute;
+    display: inline-block;
+    top: 119px;
+    right: 76px;
+    width: 129px;
+}
+.gorilla {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #D5D4E1;
+}
+.gorilla-text {
+    position: absolute;
+    display: inline-block;
+    top: 118px;
+    right: 105px;
+    width: 129px;
+}
+
+.category-slide-wrapper {
+    margin-left: 20px;
+    width: 580px;
+}
+
+
+
+.arrows-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.arrow {
+    padding: 0px;
+    margin-right: 3px;
+    border: none;
+    background: none;
+}
+/* .arrow:active,
+.arrow:focus {
+    outline: 0px; 
+} */
+
+/* Секция История Delivery */
+.history{
+    margin-top: 90px;
+    display: flex;
+}
+.history-pictures {
+    width: 480px;
+    height: 559px;
+    margin-right: 121px;
+}
+.history-name {
+    margin-top: 30px;
+}
+.category-title {
+    margin-top: 22px;
+}
+.category-title-true {
+    position: relative;
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+
+}
+.category-title-false {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+}
+
+.history-delivery-some {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 480px;
+}
+.history-delivery-what {
+    margin-bottom: 26px;
+    width: 480px;
+}
+.Delivery-btn-wrapper {
+    width: 149px;
+    height: 40px;
+}
+.category-title-true::before {
+    content: '';
+    position: absolute;
+    width: 326px;
+    height: 55px;
+    right: -180px;
+    top: -11px;
+    background: #70bbdc33;
+    z-index: -1;
+}
+
+
+/* Партнеры */
+
+.company-pic {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+/* Секция о компании About Us */
+
+.about {
+    margin-top: 90px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.desc-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.desc {
+    margin-top: 10px;
+    margin-bottom: 29px;
+    width: 483px;
+}
+
+.about-company-contacts {
+    margin-bottom: 10px;
+}
+.about-company-contacts::before {
+    content: '';
+    position: absolute;
+    width: 543px;
+    height: 209px;
+    right: -30px;
+    top: 26px;
+    background: #E1F0F7;
+    z-index: -1;
+}
+.about-line {
+    position: relative;
+    margin-right: 117px;
+}
+.about-company-design {
+    margin-left: 30px;
+}
+.about-btn-wrapper {
+    margin-left: 30px;
+}
+.about-company {
+    margin-left: 30px;
+}
+.about-company-design::before {
+    content: '';
+    position: absolute;
+    width: 543px;
+    height: 236px;
+    right: -30px;
+    top: 26px;
+    background: #E1F0F7;
+    z-index: -1;
+}
+.about-map {
+    margin-top: -9px;
+}
+

@@ -1,0 +1,130 @@
+/* Каталог */
+
+/* Шапка */
+
+
+.tagline {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.category-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.category-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+   
+}
+
+/* Продукты-Картинки */
+.shirt {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #DBE4DB;
+}
+.shirt-text {
+    position: absolute;
+    display: inline-block;
+    top: 103px;
+    right: 76px;
+    width: 129px;
+}    
+.sock {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #EADDD3;
+}
+.sock-text {
+    position: absolute;
+    display: inline-block;
+    top: 103px;
+    right: 76px;
+    width: 129px;
+}
+.deer {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #F8F2DA;
+}
+.deer-text {
+    position: absolute;
+    display: inline-block;
+    top: 119px;
+    right: 76px;
+    width: 129px;
+}
+.gorilla {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #D5D4E1;
+}
+.gorilla-text {
+    position: absolute;
+    display: inline-block;
+    top: 118px;
+    right: 105px;
+    width: 129px;
+}
+.flamingo {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #F3D0DB;
+}
+.flamingo-text {
+    position: absolute;
+    display: inline-block;
+    top: 119px;
+    right: 77px;
+    width: 129px;
+}    
+.dress {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #E5EAF8;
+}
+.dress-text {
+    position: absolute;
+    display: inline-block;
+    top: 103px;
+    right: 76px;
+    width: 129px;
+}
+.block {
+    margin-left: 200px;
+    margin-top: 23px;
+}
+
+.category-slide-wrapper {
+    margin-left: 20px;
+}
+
+/* Описание продукта */
+
+.preview {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 680px;
+}
+.categoty-title {
+    margin-bottom: 25px;
+}
+.history-Delivery-toy {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.history-Delivery-miniature {
+    margin-bottom: 55px;
+}

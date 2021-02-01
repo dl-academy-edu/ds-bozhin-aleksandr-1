@@ -5,181 +5,219 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Bozhin</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/popup-contact.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/toys.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@300;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
+
     <header class="header container">
-        <span class="header-logo">
+        <a href="../index.html" class="header-logo">
+            <span class="visually-hidden">Go to main page</span>
             <img src="../img/logo-header.jpg" alt="">
-        </span>
+        </a>
         <nav class="menu-nav">
             <ul class="menu-list">
                 <li class="menu-item">
-                    <a class="nav-item" href="./pages/blog.html">Blog</a>
+                    <a class="nav-item" href="./blog.html">Blog</a>
                 </li>
                 <li class="menu-item">
-                    <a class="nav-item" href="./pages/catalog.html">Catalog</a>
+                    <a class="nav-item" href="./catalog.html">Catalog</a>
                 </li>
                 <li class="menu-item">
-                    <a class="nav-item" href="#id">About us</a>
+                    <a class="nav-item" href="../index.html#id">About us</a>
                 </li>
             </ul>
         </nav>
         <a href="#" class="header-search">
-            <img src="./img/search.jpg" alt="" id="idsearch">
+            <img src="../img/search.jpg" alt="" id="idsearch">
         </a>
-        <button type="button" class="contact-us">Contact us</button>
+        <a href="./contactus.html" class="contact-us">Contact us</a>
+
     </header>
     <main class="main">
-        <section class="container ">
-            <div class="page-monstr">
-                <h1 class="visually-hidden">
-                    Project Bozhin
-                </h1>
-                <p class="lead"><span>01</span></p>
-                <div class="line-monstr-wrapper">
-                    <div class="line-list-wrapper">
-                        <ol class="line-list">
-                            <li class="line-slide">
-                                <button class="line-black" type="button"></button>
-                            </li>
-                            <li class="line-slide">
-                                <button class="line" type="button"></button>
-                            </li>
-                            <li class="line-slide">
-                                <button class="line" type="button"></button>
-                            </li>
-                            <li class="line-slide">
-                                <button class="line" type="button"></button>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="monstr-title-wrapper">
-                        <h2 class="monstr-title">The ooh noo collection</h2>
-                        <p class="monstr-paragraf">Disigned of Slovenia</p>
-                        <button class="button-monstr btn" type="button" aria-label="Explore now">Explore now</button>
-                    </div>
-                </div>
-                <p class="line-paragraf">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+        <div class="container">
+            <h1 class="categoty-title subtitle">Toy for kids</h1>
+            <div class="tagline">
+                <a href="../index.html">
+                    <h3 class="main-heading">Home</h3>
+                </a>
+                <img src="../img/arrows/arrows-catalog.png" alt="" class="arrow-catalog">
+                <a href="./catalog.html">
+                    <h3 class="main-heading">Catalog</h3>
+                </a>
+                <img src="../img/arrows/arrows-catalog.png" alt="" class="arrow-catalog">
+                <a href="./toys.html">
+                    <h3 class="main-heading-transparent">Toys</h3>
+                </a>
             </div>
-        </section>
-        <section class="category container">
-
-            <h2 class="categoty-title caption">Category Products</h2>
-            <ul class="category-list">
-                <li class="shirt">
-                    <a href="#"><img class="category-pic" src="./img/category1.jpg" alt="">
-                        <h3 class="category-product shirt-text">Apparel kids</h3>
+        </div>
+        <form class="form-wrapper" action="https://echo.htmlacademy.ru" method="post">
+            <div class="form-wrapper-block container">
+                <fieldset class="fieldset-form">
+                    <legend class="fieldset-form-name">Cost</legend>
+                    <div class="line-wrapper">
+                        <div class="scale-line"><img src="../img/Toys/line1.png" alt=""></div>
+                        <div class="scale-circl"><img class="circl" src="../img/Toys/circl1.png" alt=""></div>
+                        <div class="scale-circl-img"><img src="../img/Toys/circl2.png" alt=""></div>
+                        <div class="scale-line"><img src="../img/Toys/line2.png" alt=""></div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="aside-block">
+                            <span class="aside-block-number form-words">1</span>
+                        </div>
+                        <div class="aside-block">
+                            <span class="aside-block-number form-words">500</span>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="fieldset-form">
+                    <legend class="fieldset-form-name">Color</legend>
+                    <ul class="color-list">
+                        <li>
+                            <input id="Black-input" type="checkbox" class="checkbox-input visually-hidden" value="Black"
+                                checked>
+                            <label for="Black-input" class="checkbox-label form-words">Black</label>
+                        </li>
+                        <li>
+                            <input id="Blue-input" type="checkbox" class="checkbox-input visually-hidden" value="Blue">
+                            <label for="Blue-input" class="checkbox-label form-words">Blue</label>
+                        </li>
+                        <li>
+                            <input id="Green-input" type="checkbox" class="checkbox-input visually-hidden"
+                                value="Green">
+                            <label for="Green-input" class="checkbox-label form-words">Green</label>
+                        </li>
+                        <li>
+                            <input id="White-input" type="checkbox" class="checkbox-input visually-hidden"
+                                value="White">
+                            <label for="White-input" class="checkbox-label form-words">White</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="fieldset-form">
+                    <legend class="fieldset-form-name">Delivery</legend>
+                    <ul class="shiping-list">
+                        <li>
+                            <input id="free-input" type="radio" value="Free" name="report"
+                                class="radio-input visually-hidden" checked>
+                            <label for="free-input" class="radio-label form-words">Free shipping</label>
+                        </li>
+                        <li>
+                            <input id="fast-input" type="radio" value="Fast" name="report"
+                                class="radio-input visually-hidden">
+                            <label for="fast-input" class="radio-label form-words">Fast shipping</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="fieldset-form">
+                    <legend class="fieldset-form-name">Amount</legend>
+                    <ul class="item-fieldset">
+                        <li class="list-amount-main">
+                            <input id="0-5-input" type="radio" value="0-5" name="no-report"
+                                class="radio-input-amount visually-hidden" checked>
+                            <label for="0-5-input" class="radio-label-amount form-words">0-5</label>
+                        </li>
+                        <li class="list-amount-centr">
+                            <input id="10-20-input" type="radio" value="10-20" name="no-report"
+                                class="radio-input-amount visually-hidden">
+                            <label for="10-20-input" class="radio-label-amount form-words">10-20</label>
+                        </li>
+                        <li class="list-amount-last">
+                            <input id="20-50-input" type="radio" value="20-50" name="no-report"
+                                class="radio-input-amount visually-hidden">
+                            <label for="20-50-input" class="radio-label-amount form-words">20-50</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <div class="form-btn-wrapper">
+                    <button type="submit" class="button-form btn">apply</button>
+                </div>
+            </div>
+        </form>
+        <section class="items container">
+            <h4 class="visually-hidden">Toys</h4>
+            <ul class="items-wrapper">
+                <li class="items-toys">
+                    <span class="visually-hidden">Shark</span>
+                    <a href="#" class="item-toys-content"><img class="items-toys-pic" src="../img/Toys/items1.png"
+                            alt="">
+                        <p class="items-discription">SHARKY BEAN BAG CHAIR COVER</p>
+                        <p class="items-price">$60.00 USD</p>
+                        <div class="item-subtitle">
+                            <p class="subtitle-text">Learn more</p>
+                        </div>
                     </a>
                 </li>
-                <li class="sock">
-                    <a href="#"><img class="category-pic" src="./img/category2.jpg" alt="">
-                        <h3 class="category-product sock-text"> Holiday shop</h3>
-                    </a>
-                <li class="deer">
-                    <a href="./pages/toys.html"><img class="category-pic" src="./img/category3.jpg" alt="">
-                        <h3 class="category-product deer-text"> Toys</h3>
+                <li class="items-toys">
+                    <span class="visually-hidden">frames</span>
+                    <a href="#" class="item-toys-content"><img src="../img/Toys/items2.png" alt="">
+                        <p class="items-discription">BRASS DECO FRAMES</p>
+                        <p class="items-price">$66.00 USD</p>
+                        <div class="item-subtitle">
+                            <p class="subtitle-text">Learn more</p>
+                        </div>
                     </a>
                 </li>
-                <li class="gorilla">
-                    <a href="#"><img class="category-pic" src="./img/category4.jpg" alt="">
-                        <h3 class="category-product gorilla-text"> Accessories</h3>
+                <li class="items-toys">
+                    <span class="visually-hidden">apron</span>
+                    <a href="#" class="item-toys-content"><img src="../img/Toys/items3.png" alt="">
+                        <p class="items-discription">CIBO FULL APRON</p>
+                        <p class="items-price">$60.00 USD</p>
+                        <div class="item-subtitle">
+                            <p class="subtitle-text">Learn more</p>
+                        </div>
                     </a>
                 </li>
             </ul>
-            <div class="arrows-wrapper">
-                <div class="arrows">
-                    <button class="arrow" type="button" aria-label="arrows slide left">
-                        <img src="./img/arrows/arrowleft.png" alt="">
-                    </button>
-                    <button class="arrow" type="button" aria-label="arrows slide right">
-                        <img src="./img/arrows/arrowright1.png" alt="">
-                    </button>
-                </div>
-                <div class="category-slide-wrapper">
-                    <p class="category-slide excerpt">Modern finds for the modern home. Curated goods by unique
-                        designers around the world from fashion to furniture for kids and adults.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="history container">
-            <img class="history-pictures" src="./img/history-pictures.jpg" alt="">
-            <div class="history-category">
-                <h2 class="history-name caption">Delivery</h2>
-                <ul class="history-name-category">
-                    <li class="category-title"> <a href="#" class="category-title-true">Delivery</a></li>
-                    <li class="category-title"> <a href="#" class="category-title-false">Guarantee</a></li>
-                    <li class="category-title"> <a href="#" class="category-title-false">Credit</a></li>
-                </ul>
-                <p class="history-delivery-some excerpt">Some days i feel like i've been working on dlk my entire life
-                    and there are other days that i am completely shocked that four years have flown by. It's simply
-                    magical.
-                </p>
-                <p class="history-delivery-what excerpt">What started as an outlet to deal with the traumatic loss of my
-                    husband, dlk has now become a truly happy place for me and i have you and all of the beautiful
-                    designers that we work with
-                    to thank!
-                </p>
-                <div class="Delivery-btn-wrapper">
-                    <a class="btn Delivery-btn" href="#">Learn more</a>
-                </div>
-            </div>
-        </section>
-        <section class="company container">
-            <h2 class="company-title visually-hidden">Company</h2>
-            <ul class="company-pic">
-                <li class="company-mail">
-                    <a href="https://mail.ru/">
-                        <img src="./img/company-mail.jpg" alt="">
+            <ul class="items-wrapper">
+                <li class="items-toys">
+                    <span class="visually-hidden">gumball</span>
+                    <a href="#" class="item-toys-content"><img src="../img/Toys/items4.png" alt="">
+                        <p class="items-discription">GATCHA GATCHA GUMBALL MACHINE</p>
+                        <p class="items-price">$56.00 USD</p>
+                        <div class="item-subtitle">
+                            <p class="subtitle-text">Learn more</p>
+                        </div>
                     </a>
                 </li>
-                <li class="company-apple">
-                    <a href="https://www.apple.com/ru/">
-                        <img src="./img/company-apple.jpg" alt="">
+                <li class="items-toys">
+                    <span class="visually-hidden">candle</span>
+                    <a href="#" class="item-toys-content"><img src="../img/Toys/items5.png" alt="">
+                        <p class="items-discription">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                        <p class="items-price">$29.00 USD</p>
+                        <div class="item-subtitle">
+                            <p class="subtitle-text">Learn more</p>
+                        </div>
                     </a>
                 </li>
-                <li class="company-eltex">
-                    <a href="https://eltex-co.ru/">
-                        <img src="./img/company-eltex.jpg" alt="">
-                    </a>
-                </li>
-                <li class="company-owox">
-                    <a href="https://www.owox.ru/">
-                        <img src="./img/company-owox.jpg" alt="">
+                <li class="items-toys">
+                    <span class="visually-hidden">hanger</span>
+                    <a href="#" class="item-toys-content"><img src="../img/Toys/items6.png" alt="">
+                        <p class="items-discription">TANGLE SPINNING TEA LIGHT</p>
+                        <p class="items-price">$56.00 USD</p>
+                        <div class="item-subtitle">
+                            <p class="subtitle-text">Learn more</p>
+                        </div>
                     </a>
                 </li>
             </ul>
         </section>
-        <section class="about container">
-            <div class="about-line" id="id">
-                <h3 class="about-company-design caption">Design life kids</h3>
-                <p class="desc-name category-title-false about-company">About Us</p>
-                <p class="desc excerpt about-company">Some days i feel like i've been working on dlk my entire life and
-                    there are other days that i am completely shocked that four
-                    years have flown by. It's simply magical.
-                </p>
-                <div class="about-btn-wrapper">
-                    <a href="#" class="btn">Buy now</a>
-                </div>
-            </div>
-            <div class="about-line">
-                <h3 class="about-company-contacts caption">Contacts</h3>
-                <p class="desc excerpt">Some days i feel like i've been working on dlk my entire life and
-                    there are other days that i am completely shocked that four
-                    years have flown by. It's simply magical.
-                </p>
-                <img src="./img/map.jpg" alt="" class="about-map">
-            </div>
+        <section class="carousel container">
+            <h4 class="visually-hidden">carousel</h4>
+            <button type="button" class="arrow-carousel-left"></button>
+            <ul class="button-carousel">
+                <li class="carousel-number"><button class="btn-carousel-number" type="button">1</button></li>
+                <li class="carousel-list"><button class="btn-carousel-list" type="button">2</button></li>
+                <li class="carousel-list"><button class="btn-carousel-list" type="button">3</button></li>
+                <li class="carousel-list"><button class="btn-carousel-list" type="button">4</button></li>
+            </ul>
+            <button type="button" class="arrow-carousel-right"></button>
         </section>
     </main>
     <footer class="footer">
@@ -190,8 +228,8 @@
                         <h4 class="footer-info-name">Navigation</h4>
                     </a>
                     <ul class="items-link">
-                        <li><a href="#id">About us</a></li>
-                        <li><a href="./pages/blog.html">Blog</a></li>
+                        <li><a href="../index.html#id">About us</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
                         <li><a href="#">Design Services</a></li>
                         <li><a href="#">Featured On</a></li>
                         <li><a href="#">2018 Holiday Catalog</a></li>
@@ -203,7 +241,7 @@
                         <h4 class="footer-info-name">Customer Information</h4>
                     </a>
                     <ul class="items-link">
-                        <li><a href="./pages/contactus.html">Contact Us</a></li>
+                        <li><a href="./contactus.html">Contact Us</a></li>
                         <li><a href="#">Sale Exclusions</a></li>
                         <li><a href="#">Shipping & Returns</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
@@ -217,8 +255,8 @@
                             <h4 class="footer-info-name">Connect</h4>
                         </a>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                            <input id="footer-input" type="text" placeholder="Email" class="email-input-footer" required>
-                            <label for="footer-input"></label>
+                            <input id="name-input" type="text" placeholder="email" class="email-input-footer" required>
+                            <label for="name-input"></label>
                             <button class="btn footer-btn" type="submit" aria-label="btn Join">Join</button>
                         </form>
                         <ul class="social-links">
@@ -302,45 +340,6 @@
             </div>
         </div>
     </footer>
-    <section class="popup-contact container">
-        <h2 class="visually-hidden">popup-contact</h2>
-        <button type="button" class="popup-contact-btn"><span class="vissualy hidden"></span></button>
-        <div class="form-wrapper">
-            <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
-                <div class="form-name-wrapper">
-                    <label for="name-input" class="excerpt lable-name">Name</label>
-                    <input id="name-input" type="text" class="excerpt input-name" placeholder="" required>
-                </div>
-                <div class="form-block-wrapper">
-                    <div class="form-Phone-wrapper">
-                        <label for="Phone-input" class="excerpt lable-phone">Phone</label>
-                        <input id="Phone-input" type="text" class="excerpt input-phone" placeholder="" required>
-                    </div>
-                    <div class="form-Email-wrapper">
-                        <label for="email-input" class="excerpt lable-email">Email</label>
-                        <input id="email-input" type="email" class="excerpt input-email" placeholder="" required>
-                    </div>
-                </div>
-                <div class="form-message-wrapper">
-                    <label for="message-input" class="excerpt lable-message">Message</label>
-                    <textarea id="message-input" class="excerpt input-message" rows="5"></textarea>
-                </div>
-                <div class="checkbox-wrapper">
-                    <input id="check-click" class="visually-hidden checkbox-input" type="checkbox" disabled>
-                    <label for="check-click" class="checkbox-label input-checkbox"> By clicking on the
-                        button, you consent
-                        to the processing
-                        of your personal data
-                    </label>
-                </div>
-                <div class="from-button">
-                    <button type="submit" class="button-form btn" disabled>Submit</button>
-                </div>
-            </form>
-        </div>
-    </section>
-    <div class="popup-overlay"></div>
-    <script src="/js/index.js"></script>
 </body>
 
 </html>

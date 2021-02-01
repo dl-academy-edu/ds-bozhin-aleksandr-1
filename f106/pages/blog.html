@@ -5,181 +5,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Bozhin</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/popup-contact.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blog.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@300;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
+
     <header class="header container">
-        <span class="header-logo">
+        <a href="../index.html" class="header-logo">
+            <span class="visually-hidden">Go to main page</span>
             <img src="../img/logo-header.jpg" alt="">
-        </span>
+        </a>
         <nav class="menu-nav">
             <ul class="menu-list">
                 <li class="menu-item">
-                    <a class="nav-item" href="./pages/blog.html">Blog</a>
+                    <a class="nav-item" href="./blog.html">Blog</a>
                 </li>
                 <li class="menu-item">
-                    <a class="nav-item" href="./pages/catalog.html">Catalog</a>
+                    <a class="nav-item" href="./catalog.html">Catalog</a>
                 </li>
                 <li class="menu-item">
-                    <a class="nav-item" href="#id">About us</a>
+                    <a class="nav-item" href="../index.html#id">About us</a>
                 </li>
             </ul>
         </nav>
         <a href="#" class="header-search">
-            <img src="./img/search.jpg" alt="" id="idsearch">
+            <img src="../img/search.jpg" alt="" id="idsearch">
         </a>
-        <button type="button" class="contact-us">Contact us</button>
-    </header>
-    <main class="main">
-        <section class="container ">
-            <div class="page-monstr">
-                <h1 class="visually-hidden">
-                    Project Bozhin
-                </h1>
-                <p class="lead"><span>01</span></p>
-                <div class="line-monstr-wrapper">
-                    <div class="line-list-wrapper">
-                        <ol class="line-list">
-                            <li class="line-slide">
-                                <button class="line-black" type="button"></button>
-                            </li>
-                            <li class="line-slide">
-                                <button class="line" type="button"></button>
-                            </li>
-                            <li class="line-slide">
-                                <button class="line" type="button"></button>
-                            </li>
-                            <li class="line-slide">
-                                <button class="line" type="button"></button>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="monstr-title-wrapper">
-                        <h2 class="monstr-title">The ooh noo collection</h2>
-                        <p class="monstr-paragraf">Disigned of Slovenia</p>
-                        <button class="button-monstr btn" type="button" aria-label="Explore now">Explore now</button>
-                    </div>
-                </div>
-                <p class="line-paragraf">Free (continental) USA shipping on all orders of $100 USD or more!</p>
-            </div>
-        </section>
-        <section class="category container">
+        <a href="./contactus.html" class="contact-us">Contact us</a>
 
-            <h2 class="categoty-title caption">Category Products</h2>
-            <ul class="category-list">
-                <li class="shirt">
-                    <a href="#"><img class="category-pic" src="./img/category1.jpg" alt="">
-                        <h3 class="category-product shirt-text">Apparel kids</h3>
+    </header>
+    <main class="main container">
+        <h1 class="categoty-title subtitle">Blog</h1>
+        <section class="tagline">
+            <a href="../index.html">
+                <h3 class="main-heading">Home</h3>
+            </a>
+            <img src="../img/arrows/arrows-catalog.png" alt="" class="arrow-catalog">
+            <a href="./blog.html">
+                <h3 class="main-heading-transparent">Blog</h3>
+            </a>
+        </section>
+        <section class="desc-section">
+            <div class="desc-wrapper">
+                <h4 class="visually-hidden">Новости</h4>
+                <article class="desc">
+                    <a href="#">
+                        <img src="../img/Blog/desc1.jpg" alt="">
+                        <div class="desc-data">
+                            <p class="p-time">23rd August 2018</p>
+                        </div>
+                        <h2 class="desc-title">Top 5 fastest growing it service companies in philly</h2>
+                        <div class="desc-text">
+                            <p>Direct Line Development’s Team is excited to announce that we received UpCity’s
+                                2019 Local
+                                Excellence Award! This prestigious award is annually presented to the Top 1% of service
+                                providers in the given marketplace.</p>
+                        </div>
                     </a>
-                </li>
-                <li class="sock">
-                    <a href="#"><img class="category-pic" src="./img/category2.jpg" alt="">
-                        <h3 class="category-product sock-text"> Holiday shop</h3>
+                </article>
+                <article class="desc">
+                    <a href="#">
+                        <img src="../img/Blog/desc2.jpg" alt="">
+
+                        <div class="desc-data">
+                            <p class="p-time">23rd August 2018</p>
+                        </div>
+                        <h2 class="desc-title">Best financial</h2>
+                        <div class="desc-text">
+                            <p>Direct Line Development is honored to be recognized as one of the Top 100
+                                Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
+                        </div>
                     </a>
-                <li class="deer">
-                    <a href="./pages/toys.html"><img class="category-pic" src="./img/category3.jpg" alt="">
-                        <h3 class="category-product deer-text"> Toys</h3>
+                </article>
+                <article class="desc desc-article">
+                    <a href="#">
+                        <img src="../img/Blog/desc3.jpg" alt="">
+
+                        <div class="desc-data">
+                            <p class="p-time">23rd August 2018</p>
+                        </div>
+                        <h2 class="desc-title">Company logo or brand identity: which one is more important? brand
+                            identity
+                        </h2>
+                        <div class="desc-text">
+                            <p>To survive in the world of digital marketing, you need to keep up with the
+                                latest SEO trends. Here are our simple, but effective, SEO tips for small business
+                                success.
+                            </p>
+                        </div>
                     </a>
-                </li>
-                <li class="gorilla">
-                    <a href="#"><img class="category-pic" src="./img/category4.jpg" alt="">
-                        <h3 class="category-product gorilla-text"> Accessories</h3>
+                </article>
+            </div>
+            <div class="desc-wrapper">
+                <article class="desc">
+                    <a href="#">
+                        <img src="../img/Blog/desc4.jpg" alt="">
+
+                        <div class="desc-data">
+                            <p class="p-time">23rd August 2018</p>
+                        </div>
+                        <h2 class="desc-title">Best financial</h2>
+                        <div class="desc-text">
+                            <p>Direct Line Development is honored to be recognized as one of the Top 100
+                                Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
+                        </div>
                     </a>
-                </li>
+                </article>
+                <article class="desc">
+                    <a href="#">
+                        <img src="../img/Blog/desc5.jpg" alt="">
+
+                        <div class="desc-data">
+                            <p class="p-time">23rd August 2018</p>
+                        </div>
+                        <h2 class="desc-title">Company logo or brand identity: which one is more important? brand
+                            identity
+                        </h2>
+                        <div class="desc-text">
+                            <p>To survive in the world of digital marketing, you need to keep up with the
+                                latest SEO trends. Here are our simple, but effective, SEO tips for small business
+                                success.
+                            </p>
+                        </div>
+                    </a>
+                </article>
+                <article class="desc desc-article">
+                    <a href="#">
+                        <img src="../img/Blog/desc6.jpg" alt="">
+                        <div class="desc-data">
+                            <p class="p-time">23rd August 2018</p>
+                        </div>
+                        <h2 class="desc-title">Top 5 fastest growing it service companies in philly</h2>
+                        <div class="desc-text">
+                            <p>Direct Line Development’s Team is excited to announce that we received UpCity’s
+                                2019 Local Excellence Award! This prestigious award is annually presented to the Top 1%
+                                of
+                                service providers in the given marketplace.</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section class="carousel">
+            <h4 class="visually-hidden">carousel</h4>
+            <button type="button" class="arrow-carousel-left"></button>
+            <ul class="button-carousel">
+                <li class="carousel-number"><button class="btn-carousel-number" type="button">1</button></li>
+                <li class="carousel-list"><button class="btn-carousel-list" type="button">2</button></li>
+                <li class="carousel-list"><button class="btn-carousel-list" type="button">3</button></li>
+                <li class="carousel-list"><button class="btn-carousel-list" type="button">4</button></li>
             </ul>
-            <div class="arrows-wrapper">
-                <div class="arrows">
-                    <button class="arrow" type="button" aria-label="arrows slide left">
-                        <img src="./img/arrows/arrowleft.png" alt="">
-                    </button>
-                    <button class="arrow" type="button" aria-label="arrows slide right">
-                        <img src="./img/arrows/arrowright1.png" alt="">
-                    </button>
-                </div>
-                <div class="category-slide-wrapper">
-                    <p class="category-slide excerpt">Modern finds for the modern home. Curated goods by unique
-                        designers around the world from fashion to furniture for kids and adults.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="history container">
-            <img class="history-pictures" src="./img/history-pictures.jpg" alt="">
-            <div class="history-category">
-                <h2 class="history-name caption">Delivery</h2>
-                <ul class="history-name-category">
-                    <li class="category-title"> <a href="#" class="category-title-true">Delivery</a></li>
-                    <li class="category-title"> <a href="#" class="category-title-false">Guarantee</a></li>
-                    <li class="category-title"> <a href="#" class="category-title-false">Credit</a></li>
-                </ul>
-                <p class="history-delivery-some excerpt">Some days i feel like i've been working on dlk my entire life
-                    and there are other days that i am completely shocked that four years have flown by. It's simply
-                    magical.
-                </p>
-                <p class="history-delivery-what excerpt">What started as an outlet to deal with the traumatic loss of my
-                    husband, dlk has now become a truly happy place for me and i have you and all of the beautiful
-                    designers that we work with
-                    to thank!
-                </p>
-                <div class="Delivery-btn-wrapper">
-                    <a class="btn Delivery-btn" href="#">Learn more</a>
-                </div>
-            </div>
-        </section>
-        <section class="company container">
-            <h2 class="company-title visually-hidden">Company</h2>
-            <ul class="company-pic">
-                <li class="company-mail">
-                    <a href="https://mail.ru/">
-                        <img src="./img/company-mail.jpg" alt="">
-                    </a>
-                </li>
-                <li class="company-apple">
-                    <a href="https://www.apple.com/ru/">
-                        <img src="./img/company-apple.jpg" alt="">
-                    </a>
-                </li>
-                <li class="company-eltex">
-                    <a href="https://eltex-co.ru/">
-                        <img src="./img/company-eltex.jpg" alt="">
-                    </a>
-                </li>
-                <li class="company-owox">
-                    <a href="https://www.owox.ru/">
-                        <img src="./img/company-owox.jpg" alt="">
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <section class="about container">
-            <div class="about-line" id="id">
-                <h3 class="about-company-design caption">Design life kids</h3>
-                <p class="desc-name category-title-false about-company">About Us</p>
-                <p class="desc excerpt about-company">Some days i feel like i've been working on dlk my entire life and
-                    there are other days that i am completely shocked that four
-                    years have flown by. It's simply magical.
-                </p>
-                <div class="about-btn-wrapper">
-                    <a href="#" class="btn">Buy now</a>
-                </div>
-            </div>
-            <div class="about-line">
-                <h3 class="about-company-contacts caption">Contacts</h3>
-                <p class="desc excerpt">Some days i feel like i've been working on dlk my entire life and
-                    there are other days that i am completely shocked that four
-                    years have flown by. It's simply magical.
-                </p>
-                <img src="./img/map.jpg" alt="" class="about-map">
-            </div>
+            <button type="button" class="arrow-carousel-right"></button>
         </section>
     </main>
     <footer class="footer">
@@ -190,8 +172,8 @@
                         <h4 class="footer-info-name">Navigation</h4>
                     </a>
                     <ul class="items-link">
-                        <li><a href="#id">About us</a></li>
-                        <li><a href="./pages/blog.html">Blog</a></li>
+                        <li><a href="../index.html#id">About us</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
                         <li><a href="#">Design Services</a></li>
                         <li><a href="#">Featured On</a></li>
                         <li><a href="#">2018 Holiday Catalog</a></li>
@@ -203,7 +185,7 @@
                         <h4 class="footer-info-name">Customer Information</h4>
                     </a>
                     <ul class="items-link">
-                        <li><a href="./pages/contactus.html">Contact Us</a></li>
+                        <li><a href="./contactus.html">Contact Us</a></li>
                         <li><a href="#">Sale Exclusions</a></li>
                         <li><a href="#">Shipping & Returns</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
@@ -217,8 +199,8 @@
                             <h4 class="footer-info-name">Connect</h4>
                         </a>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                            <input id="footer-input" type="text" placeholder="Email" class="email-input-footer" required>
-                            <label for="footer-input"></label>
+                            <input id="name-input" type="text" placeholder="email" class="email-input-footer" required>
+                            <label for="name-input"></label>
                             <button class="btn footer-btn" type="submit" aria-label="btn Join">Join</button>
                         </form>
                         <ul class="social-links">
@@ -302,45 +284,6 @@
             </div>
         </div>
     </footer>
-    <section class="popup-contact container">
-        <h2 class="visually-hidden">popup-contact</h2>
-        <button type="button" class="popup-contact-btn"><span class="vissualy hidden"></span></button>
-        <div class="form-wrapper">
-            <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
-                <div class="form-name-wrapper">
-                    <label for="name-input" class="excerpt lable-name">Name</label>
-                    <input id="name-input" type="text" class="excerpt input-name" placeholder="" required>
-                </div>
-                <div class="form-block-wrapper">
-                    <div class="form-Phone-wrapper">
-                        <label for="Phone-input" class="excerpt lable-phone">Phone</label>
-                        <input id="Phone-input" type="text" class="excerpt input-phone" placeholder="" required>
-                    </div>
-                    <div class="form-Email-wrapper">
-                        <label for="email-input" class="excerpt lable-email">Email</label>
-                        <input id="email-input" type="email" class="excerpt input-email" placeholder="" required>
-                    </div>
-                </div>
-                <div class="form-message-wrapper">
-                    <label for="message-input" class="excerpt lable-message">Message</label>
-                    <textarea id="message-input" class="excerpt input-message" rows="5"></textarea>
-                </div>
-                <div class="checkbox-wrapper">
-                    <input id="check-click" class="visually-hidden checkbox-input" type="checkbox" disabled>
-                    <label for="check-click" class="checkbox-label input-checkbox"> By clicking on the
-                        button, you consent
-                        to the processing
-                        of your personal data
-                    </label>
-                </div>
-                <div class="from-button">
-                    <button type="submit" class="button-form btn" disabled>Submit</button>
-                </div>
-            </form>
-        </div>
-    </section>
-    <div class="popup-overlay"></div>
-    <script src="/js/index.js"></script>
 </body>
 
 </html>
