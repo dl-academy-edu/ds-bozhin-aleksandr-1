@@ -166,7 +166,7 @@ body a {
 }
 .btn-carousel-number {
     margin-right: 64px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -178,7 +178,6 @@ body a {
     cursor: pointer;
 }
 .btn-carousel-number:hover {
-    color: black;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -187,7 +186,7 @@ body a {
 }
 .btn-carousel-list {
     margin-right: 64px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -199,7 +198,6 @@ body a {
     cursor: pointer;
 }
 .btn-carousel-list:hover {
-    color: black;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -217,22 +215,10 @@ body a {
     background-repeat: no-repeat;
 }
 .arrow-carousel-right:hover {
-    width: 32px;
-    height: 40px;
-    background: none;
-    border: none;
     background-image: url(../img/arrows/arrowright\ 2.png);
-    cursor: pointer;
-    background-repeat: no-repeat;
 }
 .arrow-carousel-right:active {
-    width: 32px;
-    height: 40px;
-    background: none;
-    border: none;
     background-image: url(../img/arrows/arrowright\ 3.png);
-    cursor: pointer;
-    background-repeat: no-repeat;
 }
 .arrow-carousel-left {
     width: 32px;
@@ -245,25 +231,11 @@ body a {
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .arrow-carousel-left:hover {
-    width: 32px;
-    height: 40px;
-    background: none;
-    border: none;
     background-image: url(../img/arrows/arrowright\ 2.png);
-    cursor: pointer;
-    background-repeat: no-repeat;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .arrow-carousel-left:active {
-    width: 32px;
-    height: 40px;
-    background: none;
-    border: none;
     background-image: url(../img/arrows/arrowright\ 3.png);
-    cursor: pointer;
-    background-repeat: no-repeat;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}
+   }
 
 /* footer */
 
@@ -512,7 +484,7 @@ a.items-link-info:hover {
     color: #1E0606;
 }
 .subtitle {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -521,7 +493,7 @@ a.items-link-info:hover {
     color: #1E0606;
 }
 .caption {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
@@ -530,7 +502,7 @@ a.items-link-info:hover {
     color: #1E0606;
 }
 .category-product{
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
