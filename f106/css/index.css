@@ -28,7 +28,6 @@
 .line-black:hover {
     background-image: url(../img/line2.png);
 }
-
 .line {
     width: 31px;
     height: 3px;
@@ -37,11 +36,9 @@
     border: none;
     cursor: pointer;
 }
-
 .line:hover {
     background-image: url(../img/line2.png);
 }
-
 .line-slide {
     width: 31px;
     height: 3px;
@@ -82,7 +79,6 @@
     padding-bottom: 11px;
     margin-top: 89px;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
@@ -113,15 +109,11 @@
     background-color: #EEE4DB;
 
 }
-  
-
 .line-monstr-wrapper {
     display: flex;
     flex-direction: row;
     position: relative;
 }
-
-
 .line-paragraf {
     background-color: #C29974;
 }
@@ -131,9 +123,7 @@
 }
 .categoty-title {
     text-align: left;
-  
-  }
-
+}
 .category-list {
     display: flex;
     flex-direction: row;
@@ -142,16 +132,13 @@
     margin-top: 30px;
     margin-left: -10px;
     margin-right: -10px;
-    
-  }
-
+}
   /* картинки */
 .shirt {
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
     background-color: #DBE4DB;
-   
 }
 .shirt-text {
     position: absolute;
@@ -199,14 +186,10 @@
     right: 105px;
     width: 129px;
 }
-
 .category-slide-wrapper {
     margin-left: 20px;
     width: 580px;
 }
-
-
-
 .arrows-wrapper {
     margin-top: 30px;
     display: flex;
@@ -240,25 +223,18 @@
     margin-top: 22px;
   
 }
+.title-active {
+    font-weight: bold;
+}
 .title {
     position: relative;
     font-family: Crimson Text;
     font-style: italic;
-    font-weight: bold;
     font-size: 26px;
     line-height: 32px;
     color: #1E0606;
 }
-.title-false {
-    position: relative;
-    font-family: Crimson Text;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 32px;
-    color: #1E0606;
-}
-.title::before {
+.title-active::before {
     content: '';
     position: absolute;
     width: 326px;
@@ -277,13 +253,10 @@
     margin-bottom: 26px;
     width: 480px;
 }
-.Delivery-btn-wrapper {
+.delivery-btn-wrapper {
     width: 149px;
     height: 40px;
 }
-
-
-
 /* Партнеры */
 
 .company-pic {
@@ -293,8 +266,6 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-
 }
 
 /* Секция о компании About Us */
@@ -314,7 +285,6 @@
     margin-bottom: 29px;
     width: 483px;
 }
-
 .about-company-contacts {
     margin-bottom: 10px;
 }

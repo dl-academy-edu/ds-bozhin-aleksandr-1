@@ -5,25 +5,23 @@ main {
 }
 
 /* Форма */
-.form-wrapper {
-   
+.sidebar-wrapper {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0;
     background-color: #7d97da33;
 }
-.form-wrapper-block {
+.sidebar-wrapper-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.fieldset-form {
+.fieldset-sidebar {
     padding: 0px;
     margin: 42px 0px;
     border: none;
 }
-
-.fieldset-form-name {
+.fieldset-sidebar-name {
     margin-bottom: 15px;
 }
 .color-list {
@@ -41,7 +39,7 @@ main {
 .shiping-list li {
     margin-bottom: 15px;
 }
-.form-btn-wrapper {
+.sidebar-btn-wrapper {
     margin-top: 79px;
     margin-right: 85px;
 }
@@ -51,7 +49,6 @@ main {
 /* main Заголовки в форме */
 legend {
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -61,8 +58,6 @@ legend {
 /* main Цифры слова в форме */
 .form-words {
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
@@ -83,11 +78,9 @@ legend {
     position: relative;
     display: inline-flex;
 }
-
 .block-wrapper {
     display: flex;
     justify-content: space-between;
-    
 }
 .scale-circl {
     position: absolute;
@@ -113,7 +106,7 @@ legend {
     height: 19px;    
     border: 2px solid #C29974;
     border-radius: 3px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .checkbox-label::after {
     content: '';
@@ -148,7 +141,7 @@ legend {
     height: 21px;
     border: 2px solid #C29974;
     border-radius: 18px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .radio-label::after {
     content: '';
@@ -176,20 +169,16 @@ legend {
     display: inline-flex;
 }
 .list-amount-main {
-    margin-left: 30px;
-    
+    margin-left: 30px;  
 }
 .list-amount-centr {
     margin-left: 47px;
     margin-right: 38px;
- 
 }
 .radio-label-amount{
     position: relative;
     z-index: 0;
 }
-
-
 .radio-label-amount::before {
     content: '';
     position: absolute;
@@ -200,7 +189,6 @@ legend {
     border: none;
     background-color: white;
     z-index: -1;
-
 }
 .radio-label-amount::after {
     content: '';
@@ -223,7 +211,6 @@ legend {
 .radio-input-amount:hover + .radio-label-amount::before {
     opacity: 1;
     background-color: #EDDEEB;
-
 }
 
 
@@ -232,34 +219,27 @@ legend {
     margin-top: 60px;
     padding-bottom: 65px;
 }
-
 .items-wrapper {
     display: flex;
     flex-direction: row;
     margin-bottom: 45px;
     margin-left: -10px;
-    margin-right: -10px;
-       
+    margin-right: -10px;    
 }
 .items-toys {
     margin-right: 10px;
     margin-left: 10px;
-    
-    
 }
-.items-discription {
+.items-description {
     margin-top: 30px;
     margin-bottom: 15px;
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #1E0606;
 }
 .items-price {
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -276,9 +256,9 @@ li p {
 }
 .subtitle-text {
     position: absolute;
-    width: 184px;
+    width: 200px;
     height: 29px;
-    left: 11px;
+    left: 4px;
     top: 82px;
     font-family: Montserrat;
     font-style: normal;
@@ -286,8 +266,12 @@ li p {
     font-size: 26px;
     line-height: 29px;
     color: #1E0606;
-    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
     text-transform: uppercase;
+    border: none;
+}
+.subtitle-text:hover {
+    cursor: pointer;
 }
 .item-subtitle{
     position: absolute;

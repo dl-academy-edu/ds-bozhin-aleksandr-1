@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Bozhin</title>
+    <title>ContactUs</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/contactus.css">
@@ -30,23 +30,22 @@
                     <a class="nav-item" href="./catalog.html">Catalog</a>
                 </li>
                 <li class="menu-item">
-                    <a class="nav-item" href="../index.html#id">About us</a>
+                    <a class="nav-item" href="../index.html">About us</a>
                 </li>
             </ul>
         </nav>
-        <a href="#" class="header-search">
-            <img src="../img/search.jpg" alt="" id="idsearch">
+        <a href="#" class="header-search" id="idsearch">
+            <img src="../img/search.jpg" alt="">
         </a>
         <a href="./contactus.html" class="contact-us">Contact us</a>
 
     </header>
     <main class="main container">
         <h1 class="categoty-title subtitle">Contact us</h1>
-        <section class="tagline">
+        <section class="breadcrumbs">
             <a href="../index.html">
                 <h3 class="main-heading">Home</h3>
             </a>
-            <img src="../img/arrows/arrows-catalog.png" alt="" class="arrow-catalog">
             <a href="./contactus.html">
                 <h3 class="main-heading-transparent">Contact us</h3>
             </a>
@@ -62,11 +61,11 @@
                                 required>
                         </div>
                         <div class="form-block-wrapper">
-                            <div class="form-Phone-wrapper">
+                            <div class="form-phone-wrapper">
                                 <label for="Phone-input" class="excerpt lable-phone">Phone</label>
                                 <input id="Phone-input" type="text" class="excerpt input-phone" placeholder="" required>
                             </div>
-                            <div class="form-Email-wrapper">
+                            <div class="form-email-wrapper">
                                 <label for="email-input" class="excerpt lable-email">Email</label>
                                 <input id="email-input" type="email" class="excerpt input-email" placeholder=""
                                     required>
@@ -85,13 +84,13 @@
                                 of your personal data
                             </label>
                         </div>
-                        <div class="from-button">
+                        <div>
                             <button type="submit" class="button-form btn">Submit</button>
                         </div>
                     </form>
                 </div>
                 <div class="text-wrapper">
-                    <p class="form-section-text excerpt">Our support team are on-hand to assist with any issues you are
+                    <p class="excerpt">Our support team are on-hand to assist with any issues you are
                         experiencing.
                     </p>
                     <p class="section-text excerpt">Please use the form to contact us with your needs. Send us a
@@ -106,12 +105,10 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-wrapper">
-                <div class="footer-navigation">
-                    <a class="footer-info" href="#idnav">
-                        <h4 class="footer-info-name">Navigation</h4>
-                    </a>
+                <div class="footer-title">
+                    <h4 class="footer-info-name footer-info">Navigation</h4>
                     <ul class="items-link">
-                        <li><a href="../index.html#id">About us</a></li>
+                        <li><a href="#">About us</a></li>
                         <li><a href="./blog.html">Blog</a></li>
                         <li><a href="#">Design Services</a></li>
                         <li><a href="#">Featured On</a></li>
@@ -119,10 +116,8 @@
                         <li><a href="#">Shop By Designer</a></li>
                     </ul>
                 </div>
-                <div class="footer-Information">
-                    <a class="footer-info" href="#">
-                        <h4 class="footer-info-name">Customer Information</h4>
-                    </a>
+                <div class="footer-title">
+                    <h4 class="footer-info-name footer-info">Customer Information</h4>
                     <ul class="items-link">
                         <li><a href="./contactus.html">Contact Us</a></li>
                         <li><a href="#">Sale Exclusions</a></li>
@@ -132,20 +127,17 @@
                         <li><a href="#idsearch">Search</a></li>
                     </ul>
                 </div>
-                <div class="footer-Connect">
-                    <div class="footer-Connect-info">
-                        <a class="footer-info" href="#">
-                            <h4 class="footer-info-name">Connect</h4>
-                        </a>
+                <div class="footer-title">
+                    <div class="footer-connect-info">
+                        <h4 class="footer-info-name">Connect</h4>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                            <input id="name-input-footer" type="text" placeholder="email" class="email-input-footer" required>
-                            <label for="name-input-footer"></label>
+                            <input id="name-input" type="text" placeholder="email" class="email-input-footer" required>
                             <button class="btn footer-btn" type="submit" aria-label="btn Join">Join</button>
                         </form>
                         <ul class="social-links">
-                            <li class="social-link facebook">
-                                <a href="https://ru-ru.facebook.com/"><span class="visually-hidden">Follow Us on
-                                        facebook</span>
+                            <span class="visually-hidden">Follow Us on</span>
+                            <li class="social-link">
+                                <a href="https://ru-ru.facebook.com/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -157,8 +149,8 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="social-link twitter">
-                                <a href="https://twitter.com/"><span class="visually-hidden">Follow Us on twitter</span>
+                            <li class="social-link">
+                                <a href="https://twitter.com/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -170,9 +162,8 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="social-link pinterest">
-                                <a href="https://www.pinterest.ru/"><span class="visually-hidden">Follow Us on
-                                        pinterest</span>
+                            <li class="social-link">
+                                <a href="https://www.pinterest.ru/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -184,9 +175,8 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="social-link instagram">
-                                <a href="https://www.instagram.com/?hl=ru"><span class="visually-hidden">Follow Us on
-                                        instagram</span>
+                            <li class="social-link">
+                                <a href="https://www.instagram.com/?hl=ru">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"

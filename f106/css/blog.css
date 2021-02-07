@@ -1,8 +1,6 @@
 /* Blog*/
 
-section.carousel{
-    margin-bottom: 60px;
-}
+
 /* Новости */
 
 .desc-wrapper {
@@ -18,7 +16,7 @@ section.carousel{
     margin-left: 10px;
 }
 .desc-section {
-    margin-bottom: 50px;
+    margin-bottom: 78px;
 }
 
 
@@ -27,8 +25,6 @@ section.carousel{
     margin-top: 20px;
     margin-bottom: 7px;
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #818181;
@@ -54,10 +50,8 @@ section.carousel{
     text-decoration-line: underline;
 }
 /* main Описание Новостей */
-.desc-text p {
+.desc-text {
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #1E0606;
