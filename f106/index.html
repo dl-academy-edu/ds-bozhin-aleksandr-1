@@ -17,9 +17,10 @@
 
 <body>
     <header class="header container">
-        <span class="header-logo">
-            <img src="../img/logo-header.jpg" alt="">
-        </span>
+        <a href="../index.html" class="header-logo">
+            <span class="visually-hidden">Go to main page</span>
+            <img src="./img/logo-header.jpg" alt="">
+        </a>
         <nav class="menu-nav">
             <ul class="menu-list">
                 <li class="menu-item">
@@ -29,12 +30,12 @@
                     <a class="nav-item" href="./pages/catalog.html">Catalog</a>
                 </li>
                 <li class="menu-item">
-                    <a class="nav-item" href="#id">About us</a>
+                    <a class="nav-item" href="#">About us</a>
                 </li>
             </ul>
         </nav>
-        <a href="#" class="header-search">
-            <img src="./img/search.jpg" alt="" id="idsearch">
+        <a href="#" class="header-search" id="idsearch">
+            <img src="./img/search.jpg" alt="">
         </a>
         <button type="button" class="contact-us">Contact us</button>
     </header>
@@ -47,7 +48,7 @@
                 <p class="lead"><span>01</span></p>
                 <div class="line-monstr-wrapper">
                     <div class="line-list-wrapper">
-                        <ol class="line-list">
+                        <ol>
                             <li class="line-slide">
                                 <button class="line-black" type="button"></button>
                             </li>
@@ -75,28 +76,28 @@
 
             <h2 class="categoty-title caption">Category Products</h2>
             <ul class="category-list">
-                <li class="shirt">
-                    <a href="#"><img class="category-pic" src="./img/category1.jpg" alt="">
-                        <h3 class="category-product shirt-text">Apparel kids</h3>
+                <li class="list-item-1">
+                    <a href="#"><img src="./img/category1.jpg" alt="">
+                        <h3 class="category-product item-1-text">Apparel kids</h3>
                     </a>
                 </li>
-                <li class="sock">
-                    <a href="#"><img class="category-pic" src="./img/category2.jpg" alt="">
-                        <h3 class="category-product sock-text"> Holiday shop</h3>
+                <li class="list-item-2">
+                    <a href="#"><img src="./img/category2.jpg" alt="">
+                        <h3 class="category-product item-2-text"> Holiday shop</h3>
                     </a>
-                <li class="deer">
-                    <a href="./pages/toys.html"><img class="category-pic" src="./img/category3.jpg" alt="">
-                        <h3 class="category-product deer-text"> Toys</h3>
+                <li class="list-item-3">
+                    <a href="./pages/toys.html"><img src="./img/category3.jpg" alt="">
+                        <h3 class="category-product item-3-text"> Toys</h3>
                     </a>
                 </li>
-                <li class="gorilla">
-                    <a href="#"><img class="category-pic" src="./img/category4.jpg" alt="">
-                        <h3 class="category-product gorilla-text"> Accessories</h3>
+                <li class="list-item-4">
+                    <a href="#"><img src="./img/category4.jpg" alt="">
+                        <h3 class="category-product item-4-text"> Accessories</h3>
                     </a>
                 </li>
             </ul>
             <div class="arrows-wrapper">
-                <div class="arrows">
+                <div>
                     <button class="arrow" type="button" aria-label="arrows slide left">
                         <img src="./img/arrows/arrowleft.png" alt="">
                     </button>
@@ -105,7 +106,7 @@
                     </button>
                 </div>
                 <div class="category-slide-wrapper">
-                    <p class="category-slide excerpt">Modern finds for the modern home. Curated goods by unique
+                    <p class="excerpt">Modern finds for the modern home. Curated goods by unique
                         designers around the world from fashion to furniture for kids and adults.
                     </p>
                 </div>
@@ -113,12 +114,12 @@
         </section>
         <section class="history container">
             <img class="history-pictures" src="./img/history-pictures.jpg" alt="">
-            <div class="history-category">
+            <div>
                 <h2 class="history-name caption">Delivery</h2>
                 <ul class="history-name-category">
-                    <li class="category-title"> <a href="#" class="title">Delivery</a></li>
-                    <li class="category-title"> <a href="#" class="title-false">Guarantee</a></li>
-                    <li class="category-title"> <a href="#" class="title-false">Credit</a></li>
+                    <li class="category-title"> <a href="#" class="title-active title">Delivery</a></li>
+                    <li class="category-title"> <a href="#" class="title">Guarantee</a></li>
+                    <li class="category-title"> <a href="#" class="title">Credit</a></li>
                 </ul>
                 <p class="history-delivery-some excerpt">Some days i feel like i've been working on dlk my entire life
                     and there are other days that i am completely shocked that four years have flown by. It's simply
@@ -129,30 +130,30 @@
                     designers that we work with
                     to thank!
                 </p>
-                <div class="Delivery-btn-wrapper">
-                    <a class="btn Delivery-btn" href="#">Learn more</a>
+                <div class="delivery-btn-wrapper">
+                    <a class="btn" href="#">Learn more</a>
                 </div>
             </div>
         </section>
-        <section class="company container">
-            <h2 class="company-title visually-hidden">Company</h2>
+        <section class="container">
+            <h2 class="visually-hidden">Company</h2>
             <ul class="company-pic">
-                <li class="company-mail">
+                <li>
                     <a href="https://mail.ru/">
                         <img src="./img/company-mail.jpg" alt="">
                     </a>
                 </li>
-                <li class="company-apple">
+                <li>
                     <a href="https://www.apple.com/ru/">
                         <img src="./img/company-apple.jpg" alt="">
                     </a>
                 </li>
-                <li class="company-eltex">
+                <li>
                     <a href="https://eltex-co.ru/">
                         <img src="./img/company-eltex.jpg" alt="">
                     </a>
                 </li>
-                <li class="company-owox">
+                <li>
                     <a href="https://www.owox.ru/">
                         <img src="./img/company-owox.jpg" alt="">
                     </a>
@@ -160,9 +161,9 @@
             </ul>
         </section>
         <section class="about container">
-            <div class="about-line" id="id">
+            <div class="about-line">
                 <h3 class="about-company-design caption">Design life kids</h3>
-                <p class="desc-name category-title-false about-company">About Us</p>
+                <p class="desc-name about-company title">About Us</p>
                 <p class="desc excerpt about-company">Some days i feel like i've been working on dlk my entire life and
                     there are other days that i am completely shocked that four
                     years have flown by. It's simply magical.
@@ -184,12 +185,10 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-wrapper">
-                <div class="footer-navigation">
-                    <a class="footer-info" href="#idnav">
-                        <h4 class="footer-info-name">Navigation</h4>
-                    </a>
+                <div class="footer-title">
+                    <h4 class="footer-info-name footer-info">Navigation</h4>
                     <ul class="items-link">
-                        <li><a href="#id">About us</a></li>
+                        <li><a href="#">About us</a></li>
                         <li><a href="./pages/blog.html">Blog</a></li>
                         <li><a href="#">Design Services</a></li>
                         <li><a href="#">Featured On</a></li>
@@ -197,10 +196,8 @@
                         <li><a href="#">Shop By Designer</a></li>
                     </ul>
                 </div>
-                <div class="footer-Information">
-                    <a class="footer-info" href="#">
-                        <h4 class="footer-info-name">Customer Information</h4>
-                    </a>
+                <div class="footer-title">
+                    <h4 class="footer-info-name footer-info">Customer Information</h4>
                     <ul class="items-link">
                         <li><a href="./pages/contactus.html">Contact Us</a></li>
                         <li><a href="#">Sale Exclusions</a></li>
@@ -210,21 +207,18 @@
                         <li><a href="#idsearch">Search</a></li>
                     </ul>
                 </div>
-                <div class="footer-Connect">
-                    <div class="footer-Connect-info">
-                        <a class="footer-info" href="#">
-                            <h4 class="footer-info-name">Connect</h4>
-                        </a>
+                <div class="footer-title">
+                    <div class="footer-connect-info">
+                        <h4 class="footer-info-name">Connect</h4>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                            <input id="footer-input" type="text" placeholder="Email" class="email-input-footer"
+                            <input id="" type="text" placeholder="Email" class="email-input-footer"
                                 required>
-                            <label for="footer-input"></label>
                             <button class="btn footer-btn" type="submit" aria-label="btn Join">Join</button>
                         </form>
                         <ul class="social-links">
-                            <li class="social-link facebook">
-                                <a href="https://ru-ru.facebook.com/"><span class="visually-hidden">Follow Us on
-                                        facebook</span>
+                            <span class="visually-hidden">Follow Us on</span>
+                            <li class="social-link">
+                                <a href="https://ru-ru.facebook.com/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -236,8 +230,8 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="social-link twitter">
-                                <a href="https://twitter.com/"><span class="visually-hidden">Follow Us on twitter</span>
+                            <li class="social-link">
+                                <a href="https://twitter.com/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -249,9 +243,8 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="social-link pinterest">
-                                <a href="https://www.pinterest.ru/"><span class="visually-hidden">Follow Us on
-                                        pinterest</span>
+                            <li class="social-link">
+                                <a href="https://www.pinterest.ru/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -263,9 +256,8 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="social-link instagram">
-                                <a href="https://www.instagram.com/?hl=ru"><span class="visually-hidden">Follow Us on
-                                        instagram</span>
+                            <li class="social-link">
+                                <a href="https://www.instagram.com/?hl=ru">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -304,21 +296,21 @@
     </footer>
     <section class="popup-contact container">
         <h2 class="visually-hidden">popup-contact</h2>
-        <button type="button" class="popup-contact-btn"><span class="vissualy hidden"></span></button>
+        <button type="button" class="popup-contact-btn"></button>
         <div class="form-wrapper">
             <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
                 <div class="form-name-wrapper">
                     <label for="name-input" class="excerpt lable-name">Name</label>
-                    <input id="name-input" type="text" class="excerpt input-name" placeholder="" required>
+                    <input id="name-input" type="text" class="excerpt input-name" required>
                 </div>
                 <div class="form-block-wrapper">
-                    <div class="form-Phone-wrapper">
+                    <div class="form-phone-wrapper">
                         <label for="Phone-input" class="excerpt lable-phone">Phone</label>
-                        <input id="Phone-input" type="text" class="excerpt input-phone" placeholder="" required>
+                        <input id="Phone-input" type="text" class="excerpt input-phone" required>
                     </div>
-                    <div class="form-Email-wrapper">
+                    <div class="form-email-wrapper">
                         <label for="email-input" class="excerpt lable-email">Email</label>
-                        <input id="email-input" type="email" class="excerpt input-email" placeholder="" required>
+                        <input id="email-input" type="email" class="excerpt input-email" required>
                     </div>
                 </div>
                 <div class="form-message-wrapper">

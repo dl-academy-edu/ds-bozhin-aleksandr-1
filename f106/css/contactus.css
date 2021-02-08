@@ -51,7 +51,7 @@
     border: 2px solid #0000004d;
     outline: 0px;
 }
-.form-Phone-wrapper {
+.form-phone-wrapper {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
@@ -73,7 +73,7 @@
     border: 2px solid #0000004d;
     outline: 0px;
 }
-.form-Email-wrapper {
+.form-email-wrapper {
     display: flex;
     flex-direction: column;
 }
@@ -145,8 +145,7 @@
     height: 19px;    
     border: 2px solid #C29974;
     border-radius: 3px;
-    background-color: white;
-
+    background-color: #FFFFFF;
 }
 .checkbox-label::after {
     content: '';
@@ -159,7 +158,6 @@
     opacity: 0;
     background-repeat: no-repeat;
 }
-
 .checkbox-input:checked + .checkbox-label::after {
     opacity: 1;
 }
