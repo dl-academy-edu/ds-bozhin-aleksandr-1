@@ -61,10 +61,10 @@ a {
     height: 52px;
     width: 100px;
 }
-.header-logo[href]:hover {
+.header-logo:hover {
     opacity: 0.5;
 }
-.header-logo[href]:active {
+.header-logo:active {
     opacity: 0.2;
 }
 .nav-item {
@@ -90,12 +90,10 @@ a {
     flex-direction: row;
 }
 .menu-item {
-    font-family: Open Sans;
     margin-right: 20px;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-    color: #1E0606;
 }
 .menu-item:last-child {
     margin-right: 0px;
@@ -154,12 +152,11 @@ a {
 .btn-pagination-number {
     margin-right: 64px;
     font-family: Montserrat, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
-    color: black;
+    color: #000000;
     background: none;
     border: none;
     cursor: pointer;
@@ -174,7 +171,6 @@ a {
 .btn-pagination-list {
     margin-right: 64px;
     font-family: Montserrat, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
@@ -234,7 +230,6 @@ a {
 }
 .footer-info-name{
     margin-bottom: 52px;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -266,10 +261,7 @@ a {
 
 /*  */
 .items-link a {
-    font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
     color: #FFFFFF;
 }
 .items-link a:hover {
@@ -291,11 +283,6 @@ a {
     border: none;
 }
 a.items-link-info {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
     color: #A2A2A2;
 }
 a.items-link-info:hover {
@@ -340,7 +327,7 @@ a.items-link-info:hover {
     content: '';
     position: absolute;
     top: -34px;
-    right: -497px; /* -640px */
+    right: -497px;
     width: 1180px;
     height: 1px;
     background-color: #666666;
@@ -417,10 +404,7 @@ a.items-link-info:hover {
 .btn {
     text-align: center;
     padding: 9px 22px;
-    font-family: Open Sans;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #000000;
@@ -434,35 +418,22 @@ a.items-link-info:hover {
 .btn:disabled {
     background-color:#C1C1C1;
 }
-.excerpt {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
-}
 .subtitle {
     font-family: Montserrat, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 49px;
     text-transform: uppercase;
-    color: #1E0606;
 }
 .caption {
     font-family: Montserrat, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
-    color: #1E0606;
 }
 .category-product{
     font-family: Montserrat, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
@@ -477,7 +448,7 @@ a.items-link-info:hover {
 .main-heading {
     position: relative;
     margin-right: 48px;
-    font-family: Crimson Text;
+    font-family: Crimson Text, sans-serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
@@ -493,10 +464,8 @@ a.items-link-info:hover {
     height: 12px;
     background-image: url(../img/arrows/arrows-catalog.png);
 }
-
-
 .main-heading-transparent{
-    font-family: Crimson Text;
+    font-family: Crimson Text, sans-serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;

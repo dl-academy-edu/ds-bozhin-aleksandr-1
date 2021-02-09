@@ -67,17 +67,6 @@
     font-size: 14px;
     line-height: 19px;
 }
-.input-name {
-    padding: 0px 20px;
-    width: 600px;
-    height: 50px;
-    border: 1px solid #00000033;
-   }
-.input-name:hover,
-.input-name:focus {
-    border: 2px solid #0000004d;
-    outline: 0px;
-}
 .form-phone-wrapper {
     display: flex;
     flex-direction: column;
@@ -89,16 +78,19 @@
     font-size: 14px;
     line-height: 19px;
 }
-.input-phone {
+.form-input {
     padding: 0px 20px;
     width: 290px;
     height: 50px;
     border: 1px solid #00000033;
 }
-.input-phone:hover,
-.input-phone:focus {
+.form-input:hover,
+.form-input:focus {
     border: 2px solid #0000004d;
     outline: 0px;
+}
+.input-name {
+    width: 600px;
 }
 .form-email-wrapper {
     display: flex;
@@ -109,17 +101,6 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 19px;
-}
-.input-email {
-    padding: 0px 20px;
-    width: 290px;
-    height: 50px;
-    border: 1px solid #00000033;
-}
-.input-email:hover,
-.input-email:focus {
-    border: 2px solid #0000004d;
-    outline: 0px;
 }
 .form-message-wrapper {
     display: flex;
@@ -132,24 +113,18 @@
     line-height: 19px;
 }
 .input-message {
-    padding: 0px 20px;
     padding-top: 14px;
     padding-bottom: 11px;
     padding-left: 20px;
     padding-right: 20px;
     width: 600px;
     height: 150px;
-    border: 1px solid #00000033;
-}
-.input-message:hover,
-.input-message:focus {
-    border: 2px solid #0000004d;
-    outline: 0px;
 }
 .checkbox-wrapper {
     display: flex;
     margin-top: 20px;
     margin-bottom: 17px;
+    border: none;
 }
 .checkbox-wrapper input {
     margin-right: 15px;

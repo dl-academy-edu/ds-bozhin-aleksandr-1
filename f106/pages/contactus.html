@@ -46,9 +46,8 @@
             <a href="../index.html">
                 <h3 class="main-heading">Home</h3>
             </a>
-            <a href="./contactus.html">
-                <h3 class="main-heading-transparent">Contact us</h3>
-            </a>
+            <span class="main-heading-transparent">Contact us
+            </span>
         </section>
         <section class="form-section">
             <h4 class="visually-hidden">Form</h4>
@@ -56,44 +55,42 @@
                 <div class="form-wrapper">
                     <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
                         <div class="form-name-wrapper">
-                            <label for="name-input" class="excerpt lable-name">Name</label>
-                            <input id="name-input" type="text" class="excerpt input-name" placeholder="Ivan Ivanov"
-                                required>
+                            <label for="name-input" class="lable-name">Name</label>
+                            <input id="name-input" type="text" class="form-input input-name"
+                                placeholder="Ivan Ivanov" required>
                         </div>
                         <div class="form-block-wrapper">
                             <div class="form-phone-wrapper">
-                                <label for="Phone-input" class="excerpt lable-phone">Phone</label>
-                                <input id="Phone-input" type="text" class="excerpt input-phone" placeholder="" required>
+                                <label for="Phone-input" class="lable-phone">Phone</label>
+                                <input id="Phone-input" type="text" class="form-input" placeholder="" required>
                             </div>
                             <div class="form-email-wrapper">
-                                <label for="email-input" class="excerpt lable-email">Email</label>
-                                <input id="email-input" type="email" class="excerpt input-email" placeholder=""
-                                    required>
+                                <label for="email-input" class="lable-email">Email</label>
+                                <input id="email-input" type="email" class="form-input" placeholder="" required>
                             </div>
                         </div>
                         <div class="form-message-wrapper">
-                            <label for="message-input" class="excerpt lable-message">Message</label>
-                            <textarea id="message-input" class="excerpt input-message" rows="5"></textarea>
-
+                            <label for="message-input" class="lable-message">Message</label>
+                            <textarea id="message-input" class="form-input input-message" rows="5"></textarea>
                         </div>
-                        <div class="checkbox-wrapper">
+                        <fieldset class="checkbox-wrapper">
                             <input id="check-click" class="visually-hidden checkbox-input" type="checkbox" checked>
                             <label for="check-click" class="checkbox-label input-checkbox"> By clicking on the
                                 button, you consent
                                 to the processing
                                 of your personal data
                             </label>
-                        </div>
+                        </fieldset>
                         <div>
                             <button type="submit" class="button-form btn">Submit</button>
                         </div>
                     </form>
                 </div>
                 <div class="text-wrapper">
-                    <p class="excerpt">Our support team are on-hand to assist with any issues you are
+                    <p>Our support team are on-hand to assist with any issues you are
                         experiencing.
                     </p>
-                    <p class="section-text excerpt">Please use the form to contact us with your needs. Send us a
+                    <p class="section-text">Please use the form to contact us with your needs. Send us a
                         message
                         and we'll
                         respond as soon as possible.</p>
@@ -131,11 +128,10 @@
                     <div class="footer-connect-info">
                         <h4 class="footer-info-name">Connect</h4>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                            <input id="name-input" type="text" placeholder="email" class="email-input-footer" required>
+                            <input type="text" placeholder="email" class="email-input-footer" required>
                             <button class="btn footer-btn" type="submit" aria-label="btn Join">Join</button>
                         </form>
                         <ul class="social-links">
-                            <span class="visually-hidden">Follow Us on</span>
                             <li class="social-link">
                                 <a href="https://ru-ru.facebook.com/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"

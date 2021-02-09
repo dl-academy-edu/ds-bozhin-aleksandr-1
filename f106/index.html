@@ -17,9 +17,10 @@
 
 <body>
     <header class="header container">
-        <span class="header-logo">
-            <img src="../img/logo-header.jpg" alt="">
-        </span>
+        <a href="../index.html" class="header-logo">
+            <span class="visually-hidden">Go to main page</span>
+            <img src="./img/logo-header.jpg" alt="">
+        </a>
         <nav class="menu-nav">
             <ul class="menu-list">
                 <li class="menu-item">
@@ -39,15 +40,12 @@
         <button type="button" class="contact-us">Contact us</button>
     </header>
     <main class="main">
-        <section class="container ">
-            <h1 class="visually-hidden">
-                Project Bozhin
-            </h1>
-            <div class="page-monstr">
+        <section class="container">
+            <div class="main-banner">
                 <p class="lead"><span>01</span></p>
                 <div class="line-monstr-wrapper">
                     <div class="line-list-wrapper">
-                        <ol>
+                        <ol class="line-list">
                             <li class="line-slide">
                                 <button class="line-black" type="button"></button>
                             </li>
@@ -75,25 +73,24 @@
 
             <h2 class="categoty-title caption">Category Products</h2>
             <ul class="category-list">
-                <li class="shirt">
+                <li class="list-item-1">
                     <a href="#"><img src="./img/category1.jpg" alt="">
-                        <h3 class="category-product shirt-text">Apparel kids</h3>
+                        <h3 class="category-product item-1-text">Apparel kids</h3>
                     </a>
                 </li>
-                <li class="sock">
+                <li class="list-item-2">
                     <a href="#"><img src="./img/category2.jpg" alt="">
-                        <h3 class="category-product sock-text"> Holiday shop</h3>
+                        <h3 class="category-product item-2-text"> Holiday shop</h3>
                     </a>
-                <li class="deer">
+                <li class="list-item-3">
                     <a href="./pages/toys.html"><img src="./img/category3.jpg" alt="">
-                        <h3 class="category-product deer-text"> Toys</h3>
+                        <h3 class="category-product item-3-text"> Toys</h3>
                     </a>
                 </li>
-                <li class="gorilla">
+                <li class="list-item-4">
                     <a href="#"><img src="./img/category4.jpg" alt="">
-                        <h3 class="category-product gorilla-text"> Accessories</h3>
+                        <h3 class="category-product item-4-text"> Accessories</h3>
                     </a>
-                </li>
             </ul>
             <div class="arrows-wrapper">
                 <div>
@@ -105,26 +102,26 @@
                     </button>
                 </div>
                 <div class="category-slide-wrapper">
-                    <p class="excerpt">Modern finds for the modern home. Curated goods by unique
+                    <p>Modern finds for the modern home. Curated goods by unique
                         designers around the world from fashion to furniture for kids and adults.
                     </p>
                 </div>
             </div>
         </section>
-        <section class="history container">
-            <img class="history-pictures" src="./img/history-pictures.jpg" alt="">
+        <section class="information container">
+            <img class="information-pictures" src="./img/history-pictures.jpg" alt="">
             <div>
-                <h2 class="history-name caption">Delivery</h2>
-                <ul class="history-name-category">
+                <h2 class="information-name caption">Delivery</h2>
+                <ul class="information-list">
                     <li class="category-title"> <a href="#" class="title-active title">Delivery</a></li>
                     <li class="category-title"> <a href="#" class="title">Guarantee</a></li>
                     <li class="category-title"> <a href="#" class="title">Credit</a></li>
                 </ul>
-                <p class="history-delivery-some excerpt">Some days i feel like i've been working on dlk my entire life
+                <p class="information-delivery-some">Some days i feel like i've been working on dlk my entire life
                     and there are other days that i am completely shocked that four years have flown by. It's simply
                     magical.
                 </p>
-                <p class="history-delivery-what excerpt">What started as an outlet to deal with the traumatic loss of my
+                <p class="information-delivery-what">What started as an outlet to deal with the traumatic loss of my
                     husband, dlk has now become a truly happy place for me and i have you and all of the beautiful
                     designers that we work with
                     to thank!
@@ -160,10 +157,10 @@
             </ul>
         </section>
         <section class="about container">
-            <div class="about-line">
+            <div class="about-block">
                 <h3 class="about-company-design caption">Design life kids</h3>
                 <p class="desc-name about-company title">About Us</p>
-                <p class="desc excerpt about-company">Some days i feel like i've been working on dlk my entire life and
+                <p class="desc about-company">Some days i feel like i've been working on dlk my entire life and
                     there are other days that i am completely shocked that four
                     years have flown by. It's simply magical.
                 </p>
@@ -171,9 +168,9 @@
                     <a href="#" class="btn">Buy now</a>
                 </div>
             </div>
-            <div class="about-line">
+            <div class="about-block">
                 <h3 class="about-company-contacts caption">Contacts</h3>
-                <p class="desc excerpt">Some days i feel like i've been working on dlk my entire life and
+                <p class="desc">Some days i feel like i've been working on dlk my entire life and
                     there are other days that i am completely shocked that four
                     years have flown by. It's simply magical.
                 </p>
@@ -210,12 +207,10 @@
                     <div class="footer-connect-info">
                         <h4 class="footer-info-name">Connect</h4>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                            <input id="" type="text" placeholder="Email" class="email-input-footer"
-                                required>
+                            <input type="text" placeholder="Email" class="email-input-footer" required>
                             <button class="btn footer-btn" type="submit" aria-label="btn Join">Join</button>
                         </form>
                         <ul class="social-links">
-                            <span class="visually-hidden">Follow Us on</span>
                             <li class="social-link">
                                 <a href="https://ru-ru.facebook.com/">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
@@ -285,7 +280,6 @@
                             <input class="rating-star" type="radio" name="rating" value="5" aria-label="великолепно">
                         </div>
                     </fieldset>
-
                 </div>
                 <div class="items-link"><a href="#" class="line-footer">Copyright © 2018 Dlk • Design Life Kids</a>
                 </div>
@@ -299,31 +293,31 @@
         <div class="form-wrapper">
             <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
                 <div class="form-name-wrapper">
-                    <label for="name-input" class="excerpt lable-name">Name</label>
-                    <input id="name-input" type="text" class="excerpt input-name" required>
+                    <label for="name-input" class="lable-name">Name</label>
+                    <input id="name-input" type="text" class="form-input input-name" required>
                 </div>
                 <div class="form-block-wrapper">
                     <div class="form-phone-wrapper">
-                        <label for="Phone-input" class="excerpt lable-phone">Phone</label>
-                        <input id="Phone-input" type="text" class="excerpt input-phone" required>
+                        <label for="Phone-input" class="lable-phone">Phone</label>
+                        <input id="Phone-input" type="text" class="form-input" required>
                     </div>
                     <div class="form-email-wrapper">
-                        <label for="email-input" class="excerpt lable-email">Email</label>
-                        <input id="email-input" type="email" class="excerpt input-email" required>
+                        <label for="email-input" class="lable-email">Email</label>
+                        <input id="email-input" type="email" class="form-input" required>
                     </div>
                 </div>
                 <div class="form-message-wrapper">
-                    <label for="message-input" class="excerpt lable-message">Message</label>
-                    <textarea id="message-input" class="excerpt input-message" rows="5"></textarea>
+                    <label for="message-input" class="lable-message">Message</label>
+                    <textarea id="message-input" class="form-input input-message" rows="5"></textarea>
                 </div>
-                <div class="checkbox-wrapper">
+                <fieldset class="checkbox-wrapper">
                     <input id="check-click" class="visually-hidden checkbox-input" type="checkbox" disabled>
                     <label for="check-click" class="checkbox-label input-checkbox"> By clicking on the
                         button, you consent
                         to the processing
                         of your personal data
                     </label>
-                </div>
+                </fieldset>
                 <div class="from-button">
                     <button type="submit" class="button-form btn" disabled>Submit</button>
                 </div>

@@ -9,8 +9,7 @@
     width: 61px;
     height: 74px;
     margin-left: 29px;
-    font-family: Montserrat;
-    font-style: normal;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     font-size: 60px;
     line-height: 73px;
@@ -49,13 +48,11 @@
 .monstr-title {
     width: 307px;
     text-align: start;
-    font-family: Montserrat;
-    font-style: normal;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 40px;
     line-height: 44px;
     text-transform: uppercase;
-    color: #1E0606;
 }
 .button-monstr {
     padding: 0px;
@@ -63,28 +60,26 @@
     width: 161px;
     height: 40px;
     border: none;
-
 }
 .monstr-paragraf {
     margin-top: 20px;
-    font-family: Crimson Text;
+    font-family: Crimson Text, sans-serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
-    color: #1E0606;
 }
 .line-paragraf {
     padding-top: 11px;
     padding-bottom: 11px;
     margin-top: 89px;
-    font-family: Open Sans;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-color: #C29974;
 }
 .line-list-wrapper {
     margin-left: 29px;
@@ -105,7 +100,7 @@
     background: url(../img/monstr.png) no-repeat;
     z-index: 0;
 }
-.page-monstr {
+.main-banner {
     background-color: #EEE4DB;
 
 }
@@ -114,9 +109,7 @@
     flex-direction: row;
     position: relative;
 }
-.line-paragraf {
-    background-color: #C29974;
-}
+
 /* Секция с Категориями*/
 .category {
     margin-top: 90px;
@@ -134,52 +127,52 @@
     margin-right: -10px;
 }
   /* картинки */
-.shirt {
+.list-item-1 {
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
     background-color: #DBE4DB;
 }
-.shirt-text {
+.item-1-text {
     position: absolute;
     display: inline-block;
     top: 103px;
     right: 76px;
     width: 129px;
 }
-.sock {
+.list-item-2 {
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
     background-color: #EADDD3;
 }
-.sock-text {
+.item-2-text {
     position: absolute;
     display: inline-block;
     top: 103px;
     right: 76px;
     width: 129px;
 }
-.deer {
+.list-item-3 {
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
     background-color: #F8F2DA;
 }
-.deer-text {
+.item-3-text {
     position: absolute;
     display: inline-block;
     top: 119px;
     right: 76px;
     width: 129px;
 }
-.gorilla {
+.list-item-4 {
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
     background-color: #D5D4E1;
 }
-.gorilla-text {
+.item-4-text {
     position: absolute;
     display: inline-block;
     top: 118px;
@@ -201,22 +194,19 @@
     border: none;
     background: none;
 }
-/* .arrow:active,
-.arrow:focus {
-    outline: 0px; 
-} */
+
 
 /* Секция История Delivery */
-.history{
+.information {
     margin-top: 90px;
     display: flex;
 }
-.history-pictures {
+.information-pictures {
     width: 480px;
     height: 559px;
     margin-right: 121px;
 }
-.history-name {
+.information-name {
     margin-top: 30px;
 }
 .category-title {
@@ -228,7 +218,7 @@
 }
 .title {
     position: relative;
-    font-family: Crimson Text;
+    font-family: Crimson Text, sans-serif;
     font-style: italic;
     font-size: 26px;
     line-height: 32px;
@@ -244,12 +234,12 @@
     background: #70bbdc33;
     z-index: -1;
 }
-.history-delivery-some {
+.information-delivery-some {
     margin-top: 30px;
     margin-bottom: 15px;
     width: 480px;
 }
-.history-delivery-what {
+.information-delivery-what {
     margin-bottom: 26px;
     width: 480px;
 }
@@ -298,7 +288,7 @@
     background: #E1F0F7;
     z-index: -1;
 }
-.about-line {
+.about-block {
     position: relative;
     margin-right: 117px;
 }

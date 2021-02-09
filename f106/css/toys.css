@@ -48,21 +48,11 @@ main {
 
 /* main Заголовки в форме */
 legend {
-    font-family: Open Sans;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
 }
 
 /* main Цифры слова в форме */
-.form-words {
-    font-family: Open Sans;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
-}
-.form-words:hover {
+.sidebar-words:hover {
     text-decoration-line: underline;
     cursor: pointer;
 }
@@ -233,13 +223,11 @@ legend {
 .items-description {
     margin-top: 30px;
     margin-bottom: 15px;
-    font-family: Open Sans;
     font-size: 14px;
     line-height: 19px;
     color: #1E0606;
 }
 .items-price {
-    font-family: Open Sans;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -260,8 +248,7 @@ li p {
     height: 29px;
     left: 4px;
     top: 82px;
-    font-family: Montserrat;
-    font-style: normal;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 29px;
@@ -275,8 +262,8 @@ li p {
 }
 .item-subtitle{
     position: absolute;
-    right: 86px;
-    top: -279px;
+    right: 88px;
+    top: 91px;
     width: 207px;
     height: 207px;
     background: #E5EAF8;
@@ -285,9 +272,9 @@ li p {
 }
 .item-toys-content:hover .item-subtitle{
     display: block;
+    cursor: pointer;
 }
 .item-toys-content:active .item-subtitle{
     display: block;
-    background: #E5EAF8;
     opacity: 0.67;
 }

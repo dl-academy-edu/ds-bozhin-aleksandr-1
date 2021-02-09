@@ -1,3 +1,3 @@
-# Личный проект "1ДЗ-OneLove"
+﻿# Личный проект "1ДЗ-OneLove"
 * Студент [Божин Александр Сергеевич](http:/t.me/AleksandrBozhin)
-* Наставник [Дмитрий Шишкалов](http://t.me/Dmitry_Sh64)
+* Наставник [Татьяна Набокова](https://www.behance.net/tati_nabokova)
