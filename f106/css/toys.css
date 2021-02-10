@@ -6,7 +6,6 @@ main {
 
 /* Форма */
 .sidebar-wrapper {
-    max-width: 1400px;
     margin: 0 auto;
     padding: 0;
     background-color: #7d97da33;
@@ -58,9 +57,10 @@ legend {
 }
 .button-form {
     padding: 0px;
-    border: none;
+    margin-top: -4px;
     width: 95px;
     height: 40px;
+    border: none;
 }
 
 /* чек-бокс шкала */
@@ -96,7 +96,7 @@ legend {
     height: 19px;    
     border: 2px solid #C29974;
     border-radius: 3px;
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 .checkbox-label::after {
     content: '';
@@ -105,12 +105,13 @@ legend {
     top: -1px;
     width: 15px;
     height: 16px;  
-    background-image: url(../img/checkbox/Vector\ 1.svg);
+    background-image: url('../img/checkbox/Vector\ 1.svg');
     opacity: 0;
     background-repeat: no-repeat;
 }
 .checkbox-input:checked + .checkbox-label::after {
     opacity: 1;
+    /* background-color: #FFFFFF; */
 }
 .checkbox-input:disabled + .checkbox-label::before {
     opacity: 1;
@@ -131,7 +132,7 @@ legend {
     height: 21px;
     border: 2px solid #C29974;
     border-radius: 18px;
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 .radio-label::after {
     content: '';
@@ -140,7 +141,7 @@ legend {
     top: 2px;
     width: 21px;
     height: 14px;  
-    background-image: url(../img/checkbox/Ellipse.svg);
+    background-image: url('../img/checkbox/Ellipse.svg');
     opacity: 0;
     background-repeat: no-repeat;
 }

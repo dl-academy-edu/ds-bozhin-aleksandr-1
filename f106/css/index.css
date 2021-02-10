@@ -19,24 +19,24 @@
 .line-black { 
     width: 31px;
     height: 3px;
-    background-image: url(../img/line2.png);
+    background-image: url('../img/line2.png');
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
 }
 .line-black:hover {
-    background-image: url(../img/line2.png);
+    background-image: url('../img/line2.png');
 }
 .line {
     width: 31px;
     height: 3px;
-    background-image: url(../img/line.png);
+    background-image: url('../img/line.png');
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
 }
 .line:hover {
-    background-image: url(../img/line2.png);
+    background-image: url('../img/line2.png');
 }
 .line-slide {
     width: 31px;
@@ -97,7 +97,7 @@
     top: -179px;
     width: 636px;
     height: 461px;
-    background: url(../img/monstr.png) no-repeat;
+    background: url('../img/monstr.png') no-repeat;
     z-index: 0;
 }
 .main-banner {
