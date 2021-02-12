@@ -144,6 +144,7 @@
 }
 .checkbox-input:checked + .checkbox-label::after {
     opacity: 1;
+    /* background-color: #FFFFFF; */
 }
 .checkbox-input:disabled + .checkbox-label::before {
     opacity: 1;
