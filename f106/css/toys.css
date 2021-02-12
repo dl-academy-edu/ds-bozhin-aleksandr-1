@@ -1,3 +1,5 @@
+
+
 /* Toys */
 
 main {
@@ -6,7 +8,6 @@ main {
 
 /* Форма */
 .sidebar-wrapper {
-    max-width: 1400px;
     margin: 0 auto;
     padding: 0;
     background-color: #7d97da33;
@@ -18,7 +19,13 @@ main {
 }
 .fieldset-sidebar {
     padding: 0px;
-    margin: 42px 0px;
+    margin: 42px 47px;
+    border: none;
+}
+.fieldset-sidebar-cost{
+    padding: 0px;
+    margin-top: 42px;
+    margin-bottom: 42px;
     border: none;
 }
 .fieldset-sidebar-name {
@@ -58,9 +65,10 @@ legend {
 }
 .button-form {
     padding: 0px;
-    border: none;
+    margin-top: -4px;
     width: 95px;
     height: 40px;
+    border: none;
 }
 
 /* чек-бокс шкала */
@@ -96,7 +104,7 @@ legend {
     height: 19px;    
     border: 2px solid #C29974;
     border-radius: 3px;
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 .checkbox-label::after {
     content: '';
@@ -105,12 +113,13 @@ legend {
     top: -1px;
     width: 15px;
     height: 16px;  
-    background-image: url(../img/checkbox/Vector\ 1.svg);
+    background-image: url('../img/checkbox/Vector\ 1.svg');
     opacity: 0;
     background-repeat: no-repeat;
 }
 .checkbox-input:checked + .checkbox-label::after {
     opacity: 1;
+    /* background-color: #FFFFFF; */
 }
 .checkbox-input:disabled + .checkbox-label::before {
     opacity: 1;
@@ -131,7 +140,7 @@ legend {
     height: 21px;
     border: 2px solid #C29974;
     border-radius: 18px;
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 .radio-label::after {
     content: '';
@@ -140,7 +149,7 @@ legend {
     top: 2px;
     width: 21px;
     height: 14px;  
-    background-image: url(../img/checkbox/Ellipse.svg);
+    background-image: url('../img/checkbox/Ellipse.svg');
     opacity: 0;
     background-repeat: no-repeat;
 }
@@ -154,54 +163,63 @@ legend {
     text-decoration-line: underline;
 }
 
-/* Чек-боксы Amount */
-.item-fieldset {
-    display: inline-flex;
+/* amount */
+.amount {
+    margin-right: 46px;
 }
-.list-amount-main {
-    margin-left: 30px;  
+.amount-list {
+    display: flex;
 }
-.list-amount-centr {
-    margin-left: 47px;
-    margin-right: 38px;
+.amount-field {
+    margin-top: 40px;
+    border: 0;
 }
-.radio-label-amount{
+.list-item {
+    width: 80px;
+    margin-top: 6px;
+}
+/* .list-item:focus-within {
+    outline: solid 2px #000;
+} */
+.amount-label {
+    display: block;
+    padding: 7px;
+    text-align: center;
     position: relative;
-    z-index: 0;
+    z-index: 1;
+    color: #1E0606;
+    cursor: pointer;
 }
-.radio-label-amount::before {
-    content: '';
+.amount-label::before {
+    content: "";
+    display: block;
     position: absolute;
-    left: -35px;
-    top: -3px;
-    width: 80px;
+    top: 0;
+    left: 0;
     height: 35px;
-    border: none;
-    background-color: white;
-    z-index: -1;
+    width: 80px;
+    background-color: #ffffff;
+    z-index: -2;
 }
-.radio-label-amount::after {
-    content: '';
+.amount-label:hover::before{
+    background-color: #EDDEEB;
+}
+.amount-label::after {
+    content: "";
+    display: block;
     position: absolute;
-    left: -35px;
-    top: -3px;
-    width: 80px;
+    top: 0;
+    left: 0;
     height: 35px;
-    border: none; 
+    width: 80px;
     background-color: #F3D0DB;
     opacity: 0;
     z-index: -1;
 }
-.radio-input-amount:checked + .radio-label-amount::after {
+.amount-input:checked + .amount-label::after {
     opacity: 1;
 }
-.radio-input-amount:disabled + .radio-label-amount::before {
-    opacity: 1;
-}
-.radio-input-amount:hover + .radio-label-amount::before {
-    opacity: 1;
-    background-color: #EDDEEB;
-}
+
 
 
 /* main Секция с Игрушками */

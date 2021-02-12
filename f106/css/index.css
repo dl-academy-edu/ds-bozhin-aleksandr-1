@@ -17,32 +17,26 @@
 }
 /* Линии */
 .line-black { 
+    padding: 0px;
     width: 31px;
     height: 3px;
-    background-image: url(../img/line2.png);
-    background-repeat: no-repeat;
+    background-color: #1e060699;
     border: none;
     cursor: pointer;
 }
-.line-black:hover {
-    background-image: url(../img/line2.png);
-}
 .line {
+    padding: 0px;
     width: 31px;
     height: 3px;
-    background-image: url(../img/line.png);
-    background-repeat: no-repeat;
+    background-color: #D6CAC2;
     border: none;
     cursor: pointer;
 }
 .line:hover {
-    background-image: url(../img/line2.png);
+    background-color: #1e060699;
+    cursor: pointer;
 }
-.line-slide {
-    width: 31px;
-    height: 3px;
-    margin-bottom: 11px;
-}
+
 
 /*  */
 .monstr-title {
@@ -82,6 +76,8 @@
     background-color: #C29974;
 }
 .line-list-wrapper {
+    display: flex;
+    flex-direction: row;
     margin-left: 29px;
 }
 
@@ -97,7 +93,7 @@
     top: -179px;
     width: 636px;
     height: 461px;
-    background: url(../img/monstr.png) no-repeat;
+    background: url('../img/monstr.png') no-repeat;
     z-index: 0;
 }
 .main-banner {

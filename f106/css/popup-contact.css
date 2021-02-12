@@ -66,6 +66,7 @@
     margin-bottom: 3px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .form-phone-wrapper {
     display: flex;
@@ -77,12 +78,13 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .form-input {
     padding: 0px 20px;
     width: 290px;
     height: 50px;
-    border: 1px solid #00000033;
+    border: 2px solid #00000033;
 }
 .form-input:hover,
 .form-input:focus {
@@ -101,6 +103,7 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .form-message-wrapper {
     display: flex;
@@ -111,6 +114,7 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .input-message {
     padding-top: 14px;
@@ -122,6 +126,7 @@
 }
 .checkbox-wrapper {
     display: flex;
+    padding-left: 0px;
     margin-top: 20px;
     margin-bottom: 17px;
     border: none;
@@ -137,6 +142,7 @@
 /* Чек-бокс */
 .checkbox-label{
     position: relative;
+    cursor: pointer;
 }
 .checkbox-label::before {
     content: '';
@@ -147,8 +153,6 @@
     height: 19px;    
     border: 2px solid #C29974;
     border-radius: 3px;
-    background-color:  #ffffff;
-
 }
 .checkbox-label::after {
     content: '';
@@ -157,7 +161,8 @@
     top: -1px;
     width: 15px;
     height: 16px;  
-    background-image: url(../img/checkbox/Vector\ 1.svg);
+    background-color:  transparent;
+    background-image: url('../img/checkbox/Vector\ 1.svg');
     opacity: 0;
     background-repeat: no-repeat;
 }
@@ -167,10 +172,8 @@
 }
 .checkbox-input:disabled + .checkbox-label::before {
     opacity: 1;
+    background-color: transparent;
 }
-/* .checkbox-input:checked + .checkbox-label {
-    text-decoration-line: underline;
-} */
 .pop-contact .button-form:disabled {
     background-color: #C1C1C1;
     border: none;
@@ -183,14 +186,16 @@
     right: 80px;
     width: 15px;
     height: 15px;
-    background-image: url(/img/cross.svg);
+    background-color: transparent;
+    background-image: url('../img/cross.svg');
     background-repeat: no-repeat;
     background-position: center;
     border: none;
+    cursor: pointer;
 }
 .popup-contact-btn:hover {
-    background-image: url(/img/cross2.svg);
+    background-image: url('../img/cross2.svg');
 }
 .popup-contact-btn:active {
-    background-image: url(/img/cross3.svg);
+    background-image: url('../img/cross3.svg');
 }
