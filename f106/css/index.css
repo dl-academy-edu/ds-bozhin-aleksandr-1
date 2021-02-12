@@ -16,14 +16,7 @@
     color: #1e06060d;
 }
 /* Линии */
-.line-black { 
-    padding: 0px;
-    width: 31px;
-    height: 3px;
-    background-color: #1e060699;
-    border: none;
-    cursor: pointer;
-}
+
 .line {
     padding: 0px;
     width: 31px;
@@ -36,7 +29,10 @@
     background-color: #1e060699;
     cursor: pointer;
 }
-
+.line:active {
+    background-color: #1e060699;
+    cursor: pointer;
+}
 
 /*  */
 .monstr-title {
