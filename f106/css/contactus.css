@@ -38,6 +38,7 @@
     margin-bottom: 3px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .form-input:hover,
 .form-input:focus {
@@ -54,15 +55,19 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .form-input {
     padding: 0px 20px;
     width: 290px;
     height: 50px;
-    border: 1px solid #00000033;
+    border: 2px solid #00000033;
 }
 .input-name {
     width: 600px;
+}
+.input-name::placeholder {
+    color: #1E0606;
 }
 .form-email-wrapper {
     display: flex;
@@ -73,6 +78,7 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .form-message-wrapper {
     display: flex;
@@ -83,6 +89,7 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 }
 .input-message {
     padding: 0px 20px;
@@ -95,6 +102,7 @@
 }
 .checkbox-wrapper {
     display: flex;
+    padding-left: 0px;
     margin-top: 20px;
     margin-bottom: 17px;
     border:none;
@@ -110,6 +118,7 @@
 /* Чек-бокс */
 .checkbox-label{
     position: relative;
+    cursor: pointer;
 }
 .checkbox-label::before {
     content: '';
@@ -120,7 +129,7 @@
     height: 19px;    
     border: 2px solid #C29974;
     border-radius: 3px;
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 .checkbox-label::after {
     content: '';
@@ -129,7 +138,7 @@
     top: -1px;
     width: 15px;
     height: 16px;  
-    background-image: url(../img/checkbox/Vector\ 1.svg);
+    background-image: url('../img/checkbox/Vector\ 1.svg');
     opacity: 0;
     background-repeat: no-repeat;
 }
@@ -139,9 +148,6 @@
 .checkbox-input:disabled + .checkbox-label::before {
     opacity: 1;
 }
-/* .checkbox-input:checked + .checkbox-label {
-    text-decoration-line: underline;
-} */
 
 /* Текст */
 .text-wrapper {
