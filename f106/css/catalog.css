@@ -1,22 +1,36 @@
+
 /* Каталог */
 
 /* Шапка */
 
 
 .tagline {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 15px;
     margin-bottom: 50px;
 }
 .category-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: nowrap; 
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; 
 }
 .category-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -102,7 +116,7 @@
 }
 .block {
     margin-left: 200px;
-    margin-top: 23px;
+    margin-top: 19px;
 }
 
 .category-slide-wrapper {
@@ -113,11 +127,11 @@
 
 .preview {
     margin-left: 200px;
-    margin-top: 50px;
+    margin-top: 53px;
     width: 680px;
 }
-.categoty-title {
-    margin-bottom: 25px;
+.history-delivery-interactive {
+    margin-top: 23px;
 }
 .history-delivery-toy {
     margin-top: 15px;

@@ -18,6 +18,8 @@
     margin-bottom: 60px;
 }
 .form-section-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .contact-form {
@@ -25,14 +27,23 @@
     background-color: #7d97da33;
 }
 .form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .form-block-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .form-name-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .lable-name {
     margin-bottom: 3px;
@@ -46,8 +57,13 @@
     outline: 0px;
 }
 .form-phone-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-right: 20px;
 }
 .lable-phone {
@@ -66,12 +82,29 @@
 .input-name {
     width: 600px;
 }
+.input-name::-webkit-input-placeholder {
+    color: #1E0606;
+}
+.input-name::-moz-placeholder {
+    color: #1E0606;
+}
+.input-name:-ms-input-placeholder {
+    color: #1E0606;
+}
+.input-name::-ms-input-placeholder {
+    color: #1E0606;
+}
 .input-name::placeholder {
     color: #1E0606;
 }
 .form-email-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .lable-email {
     margin-bottom: 3px;
@@ -81,8 +114,13 @@
     cursor: pointer;
 }
 .form-message-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .lable-message {
     margin-bottom: 3px;
@@ -101,11 +139,16 @@
     height: 150px;
 }
 .checkbox-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 0px;
     margin-top: 20px;
     margin-bottom: 17px;
-    border:none;
+    border: none;
+}
+.checkbox-wrapper:focus-within{
+    outline: solid 2px #000;
 }
 .checkbox-wrapper input {
     margin-right: 15px;

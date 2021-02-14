@@ -2,13 +2,15 @@
 
 /* Секция с Монстром */
 .main {
-    padding-top: 69px;
+    padding-top: 76px;
 }
 
 .lead {
+    padding-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 31px;
     width: 61px;
     height: 74px;
-    margin-left: 29px;
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     font-size: 60px;
@@ -19,8 +21,8 @@
 
 .line {
     padding: 0px;
-    width: 31px;
-    height: 3px;
+    width: 100%;
+    height: 100%;
     background-color: #D6CAC2;
     border: none;
     cursor: pointer;
@@ -32,6 +34,14 @@
 .line:active {
     background-color: #1e060699;
     cursor: pointer;
+}
+.line-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 31px;
+    height: 3px;
+    margin-top: 11px;
 }
 
 /*  */
@@ -60,7 +70,7 @@
     line-height: 25px;
 }
 .line-paragraf {
-    padding-top: 11px;
+    padding-top: 12px;
     padding-bottom: 11px;
     margin-top: 89px;
     font-weight: bold;
@@ -72,20 +82,24 @@
     background-color: #C29974;
 }
 .line-list-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    margin-left: 29px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 31px;
 }
 
 .monstr-title-wrapper {
     margin-left: 71px;
-   
 }
 .monstr-title-wrapper::after { 
     content: '';
     position: absolute;
     display: block;
-    right: 92px;
+    right: 98px;
     top: -179px;
     width: 636px;
     height: 461px;
@@ -97,24 +111,37 @@
 
 }
 .line-monstr-wrapper {
-    display: flex;
-    flex-direction: row;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;  
 }
 
 /* Секция с Категориями*/
 .category {
-    margin-top: 90px;
+    margin-top: 91px;
 }
 .categoty-title {
     text-align: left;
 }
 .category-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 28px;
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -172,13 +199,19 @@
     width: 129px;
 }
 .category-slide-wrapper {
-    margin-left: 20px;
+    margin-left: 16px;
+    margin-top: -3px;
     width: 580px;
 }
 .arrows-wrapper {
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 .arrow {
     padding: 0px;
@@ -191,6 +224,8 @@
 /* Секция История Delivery */
 .information {
     margin-top: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .information-pictures {
@@ -199,7 +234,7 @@
     margin-right: 121px;
 }
 .information-name {
-    margin-top: 30px;
+    margin-top: 31px;
 }
 .category-title {
     margin-top: 22px;
@@ -222,17 +257,17 @@
     width: 326px;
     height: 55px;
     right: -180px;
-    top: -11px;
+    top: -16px;
     background: #70bbdc33;
     z-index: -1;
 }
 .information-delivery-some {
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 28px;
+    margin-bottom: 14px;
     width: 480px;
 }
 .information-delivery-what {
-    margin-bottom: 26px;
+    margin-bottom: 36px;
     width: 480px;
 }
 .delivery-btn-wrapper {
@@ -242,33 +277,47 @@
 /* Партнеры */
 
 .company-pic {
-    margin-top: 90px;
+    margin-top: 92px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 /* Секция о компании About Us */
 
 .about {
-    margin-top: 90px;
-    margin-bottom: 60px;
+    margin-top: 87px;
+    margin-bottom: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 .desc-name {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 12px;
 }
 .desc {
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 29px;
     width: 483px;
 }
 .about-company-contacts {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 .about-company-contacts::before {
     content: '';
@@ -306,4 +355,3 @@
 .about-map {
     margin-top: -9px;
 }
-

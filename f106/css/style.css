@@ -1,8 +1,8 @@
-
  /* Общие стили для всего сайта */
 
-*, *::after, *::before {
-    box-sizing: border-box;
+ *, *::after, *::before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 ul, ol {
     list-style: none;
@@ -46,7 +46,8 @@ a {
     border: 0;
     padding: 0;
     white-space: nowrap;
-    clip-path: inset(100%);
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
@@ -55,10 +56,17 @@ a {
 /* header */
 
 .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding-bottom: 60px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .header-logo {
     height: 52px;
@@ -70,6 +78,9 @@ a {
 .header-logo:active {
     opacity: 0.2;
 }
+.header-logo:focus {
+    opacity: 0.5;
+}
 .nav-item {
     color: #1E0606;
 }
@@ -79,7 +90,9 @@ a {
 .nav-item:active {
     opacity: 0.2;
 }
-
+.nav-item:focus {
+    opacity: 0.5;
+}
 
 
 /* Навигация */
@@ -89,8 +102,13 @@ a {
     margin-right: auto;
 }
 .menu-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 .menu-item {
     margin-right: 20px;
@@ -104,10 +122,10 @@ a {
 
 
 
-/* Поиск, Контакт ас */
+/* Поиск, Контакт ас Main*/
 
 .header-search {
-    margin-right: 23px;
+    margin-right: 18px;
 }
 .header-search:hover {
     opacity: 0.5;
@@ -115,7 +133,11 @@ a {
 .header-search:active {
     opacity: 0.2;
 }
+.header-search:focus {
+    opacity: 0.5;
+}
 .contact-us {
+    margin-right: -4px;
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
@@ -131,27 +153,79 @@ a {
 .contact-us:active {
     opacity: 0.2;
 }
+.contact-us:focus {
+    opacity: 0.5;
+}
+/* Поиск, Контакт ас другие страницы,
+ так как в пиксель перфекте отличается от Main 
+ по расположению*/
+.header-search-2 {
+    margin-right: 23px;
+}
+.header-search-2:hover {
+    opacity: 0.5;
+}
+.header-search-2:active {
+    opacity: 0.2;
+}
+.contact-us-2 {
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #1E0606;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.contact-us-2:hover {
+    opacity: 0.5;
+}
+.contact-us-2:active {
+    opacity: 0.2;
+}
+.contact-us-2:focus {
+    opacity: 0.5;
+}
 
 /* Имя страниц и стрелка . Путь перехода*/
 
 .breadcrumbs {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    margin-top: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 17px;
     margin-bottom: 50px;
 }
 /* Карусель 2 страниц: Toys и Blog */
 .pagination {
     margin-top: 10px;
-    margin-bottom: 63px;
+    margin-bottom: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .button-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .btn-pagination-number {
     margin-right: 64px;
@@ -165,9 +239,9 @@ a {
     border: none;
     cursor: pointer;
 }
-.btn-pagination-number:hover {
+.btn-pagination-number:hover,
+.btn-pagination-number:focus {
     opacity: 0.5;
-    cursor: pointer;
 }
 .btn-pagination-number:active {
     color: #C29974;
@@ -184,7 +258,8 @@ a {
     border: none;
     cursor: pointer;
 }
-.btn-pagination-list:hover {
+.btn-pagination-list:hover,
+.btn-pagination-list:focus {
     opacity: 0.5;
     cursor: pointer;
 }
@@ -196,13 +271,14 @@ a {
     width: 32px;
     height: 40px;
     background: none;
-    border: none;
     background-image: url('../img/arrows/arrowright.png');
     background-position: center;
-    cursor: pointer;
     background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
 }
-.arrow-pagination:hover {
+.arrow-pagination:hover,
+.arrow-pagination:focus {
     background-image: url('../img/arrows/arrowright\ 2.png');
 }
 .arrow-pagination:active {
@@ -211,7 +287,9 @@ a {
 }
 .arrow-pagination-left {
     background-image: url('../img/arrows/arrowright.png');
-    transform: rotate( 180deg);
+    -webkit-transform: rotate( 180deg);
+        -ms-transform: rotate( 180deg);
+            transform: rotate( 180deg);
     background-repeat: no-repeat;
 
 }
@@ -219,20 +297,29 @@ a {
 /* footer */
 
 .footer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 100px;
     padding-left: 0px;
     padding-right: 0px;
     
 }
 .footer-star-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 100px;
     padding-left: 0px;
     padding-right: 0px;
-    margin-top: 52px;
+    margin-top: 37px;
     
 }
 .footer-info-name{
@@ -246,6 +333,9 @@ a {
 /* footer заголовки  */
 .footer-title {
     position: relative;
+}
+.footer-title-wrapper{
+    margin-left: 8px;
 }
 .footer-info::before {
     content: '';
@@ -278,6 +368,9 @@ a {
 .items-link a:active {
     opacity: 0.2;
 }
+.items-link a:focus {
+    opacity: 0.5;
+}
 .items-link li {
     margin: 15px 0px;
 }
@@ -295,21 +388,41 @@ a.items-link-info {
 }
 a.items-link-info:hover {
     color: #FFFFFF;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+}
+a.items-link-info:focus {
+    color: #FFFFFF;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
 }
 .items-link button {
     background: transparent;
     border: none;
 }
 .footer-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .email-input-footer {
-    padding: 9px 15px;
+    padding: 9px 11px;
     width: 299px;
     height: 40px;
     border: 1px solid transparent;
     background-color: #666666;
+}
+.email-input-footer::-webkit-input-placeholder {
+    color: #EBEBEB;
+}
+.email-input-footer::-moz-placeholder {
+    color: #EBEBEB;
+}
+.email-input-footer:-ms-input-placeholder {
+    color: #EBEBEB;
+}
+.email-input-footer::-ms-input-placeholder {
+    color: #EBEBEB;
 }
 .email-input-footer::placeholder {
     color: #EBEBEB;
@@ -321,8 +434,8 @@ a.items-link-info:hover {
     outline: 0px;
 }
 .items-link .line-footer {
-    margin-right: 112px;
-    margin-left: 270px;
+    margin-right: 110px;
+    margin-left: 276px;
 }
 .line-footer {
     position: relative; 
@@ -346,7 +459,9 @@ a.items-link-info:hover {
     margin: 0;
     padding: 0;
     border: none;
-
+}
+.rating-group:focus-within {
+    outline: solid 2px #000;
 }
 .rating-star {
     position: absolute;
@@ -379,6 +494,8 @@ a.items-link-info:hover {
     background-size: 18px auto;
 }
 .rating-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
     top: -18px;
@@ -428,6 +545,10 @@ a.items-link-info:hover {
 }
 .btn:disabled {
     background-color:#C1C1C1;
+    cursor: auto;
+}
+.btn:focus {
+    background-color:#C29974;
 }
 .subtitle {
     font-family: Montserrat, sans-serif;
@@ -443,6 +564,7 @@ a.items-link-info:hover {
     line-height: 46px;
     text-transform: uppercase;
 }
+
 .category-product{
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -453,8 +575,9 @@ a.items-link-info:hover {
     color: #FFFFFF;
 }
 .category-product:hover {
-    text-decoration-line: underline;
-    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    text-shadow: 0px 0px 40px #93030340;
 }
 .main-heading {
     position: relative;
@@ -474,6 +597,7 @@ a.items-link-info:hover {
     width: 8px;
     height: 12px;
     background-image: url('../img/arrows/arrows-catalog.png');
+    background-repeat: no-repeat;
 }
 .main-heading-transparent{
     font-family: Crimson Text, sans-serif;
@@ -489,6 +613,8 @@ a.items-link-info:hover {
 
 /* Социальные сети */
 .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 25px;
 }
@@ -504,10 +630,6 @@ a.items-link-info:hover {
 .social-link:active {
     opacity: 0.2;
 }
-
-
-
-
-
-
-
+.social-link:focus {
+    opacity: 0.5;
+}
