@@ -27,10 +27,7 @@
     border: none;
     cursor: pointer;
 }
-.line:hover {
-    background-color: #1e060699;
-    cursor: pointer;
-}
+.line:hover,
 .line:active {
     background-color: #1e060699;
     cursor: pointer;
@@ -333,12 +330,8 @@
     position: relative;
     margin-right: 117px;
 }
-.about-company-design {
-    margin-left: 30px;
-}
-.about-btn-wrapper {
-    margin-left: 30px;
-}
+.about-company-design,
+.about-btn-wrapper,
 .about-company {
     margin-left: 30px;
 }

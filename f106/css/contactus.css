@@ -82,18 +82,9 @@
 .input-name {
     width: 600px;
 }
-.input-name::-webkit-input-placeholder {
-    color: #1E0606;
-}
-.input-name::-moz-placeholder {
-    color: #1E0606;
-}
-.input-name:-ms-input-placeholder {
-    color: #1E0606;
-}
-.input-name::-ms-input-placeholder {
-    color: #1E0606;
-}
+.input-name::-webkit-input-placeholder,
+.input-name::-moz-placeholder,
+.input-name:-ms-input-placeholder,
 .input-name::placeholder {
     color: #1E0606;
 }

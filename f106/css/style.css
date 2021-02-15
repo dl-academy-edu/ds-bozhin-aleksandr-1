@@ -72,26 +72,22 @@ a {
     height: 52px;
     width: 100px;
 }
-.header-logo:hover {
+.header-logo:hover,
+.header-logo:focus {
     opacity: 0.5;
 }
 .header-logo:active {
     opacity: 0.2;
 }
-.header-logo:focus {
-    opacity: 0.5;
-}
 .nav-item {
     color: #1E0606;
 }
-.nav-item:hover {
+.nav-item:hover,
+.nav-item:focus {
     opacity: 0.5;
 }
 .nav-item:active {
     opacity: 0.2;
-}
-.nav-item:focus {
-    opacity: 0.5;
 }
 
 
@@ -127,14 +123,12 @@ a {
 .header-search {
     margin-right: 18px;
 }
-.header-search:hover {
+.header-search:hover,
+.header-search:focus  {
     opacity: 0.5;
 }
 .header-search:active {
     opacity: 0.2;
-}
-.header-search:focus {
-    opacity: 0.5;
 }
 .contact-us {
     margin-right: -4px;
@@ -147,47 +141,14 @@ a {
     border: none;
     cursor: pointer;
 }
-.contact-us:hover {
+.contact-us:hover,
+.contact-us:focus  {
     opacity: 0.5;
 }
 .contact-us:active {
     opacity: 0.2;
 }
-.contact-us:focus {
-    opacity: 0.5;
-}
-/* Поиск, Контакт ас другие страницы,
- так как в пиксель перфекте отличается от Main 
- по расположению*/
-.header-search-2 {
-    margin-right: 23px;
-}
-.header-search-2:hover {
-    opacity: 0.5;
-}
-.header-search-2:active {
-    opacity: 0.2;
-}
-.contact-us-2 {
-    margin-right: 3px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
-    color: #1E0606;
-    background-color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-}
-.contact-us-2:hover {
-    opacity: 0.5;
-}
-.contact-us-2:active {
-    opacity: 0.2;
-}
-.contact-us-2:focus {
-    opacity: 0.5;
-}
+
 
 /* Имя страниц и стрелка . Путь перехода*/
 
@@ -362,14 +323,12 @@ a {
     font-weight: normal;
     color: #FFFFFF;
 }
-.items-link a:hover {
+.items-link a:hover,
+.items-link a:focus {
     opacity: 0.5;
 }
 .items-link a:active {
     opacity: 0.2;
-}
-.items-link a:focus {
-    opacity: 0.5;
 }
 .items-link li {
     margin: 15px 0px;
@@ -386,11 +345,7 @@ a {
 a.items-link-info {
     color: #A2A2A2;
 }
-a.items-link-info:hover {
-    color: #FFFFFF;
-    -webkit-text-decoration-line: underline;
-            text-decoration-line: underline;
-}
+a.items-link-info:hover,
 a.items-link-info:focus {
     color: #FFFFFF;
     -webkit-text-decoration-line: underline;
@@ -412,18 +367,10 @@ a.items-link-info:focus {
     border: 1px solid transparent;
     background-color: #666666;
 }
-.email-input-footer::-webkit-input-placeholder {
-    color: #EBEBEB;
-}
-.email-input-footer::-moz-placeholder {
-    color: #EBEBEB;
-}
-.email-input-footer:-ms-input-placeholder {
-    color: #EBEBEB;
-}
-.email-input-footer::-ms-input-placeholder {
-    color: #EBEBEB;
-}
+.email-input-footer::-webkit-input-placeholder,
+.email-input-footer::-moz-placeholder,
+.email-input-footer:-ms-input-placeholder,
+.email-input-footer::-ms-input-placeholder,
 .email-input-footer::placeholder {
     color: #EBEBEB;
 }
@@ -537,7 +484,8 @@ a.items-link-info:focus {
     background-color: #000000;
     border: none;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus  {
     background-color:#C29974;
 }
 .btn:active {
@@ -546,9 +494,6 @@ a.items-link-info:focus {
 .btn:disabled {
     background-color:#C1C1C1;
     cursor: auto;
-}
-.btn:focus {
-    background-color:#C29974;
 }
 .subtitle {
     font-family: Montserrat, sans-serif;
@@ -624,12 +569,10 @@ a.items-link-info:focus {
 .social-link:first-child {
     margin-left: 0px;
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     opacity: 0.5;
 }
 .social-link:active {
     opacity: 0.2;
-}
-.social-link:focus {
-    opacity: 0.5;
 }
