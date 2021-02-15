@@ -1,9 +1,7 @@
-
-
 /* Toys */
 
 main {
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 /* Форма */
@@ -13,13 +11,23 @@ main {
     background-color: #7d97da33;
 }
 .sidebar-wrapper-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .fieldset-sidebar {
     padding: 0px;
-    margin: 42px 47px;
+    margin-top: 40px;
+    margin-bottom: 41px;
+    margin-left: 62px;
+    margin-right: 53px;
     border: none;
 }
 .fieldset-sidebar-cost{
@@ -29,13 +37,14 @@ main {
     border: none;
 }
 .fieldset-sidebar-name {
-    margin-bottom: 15px;
+    margin-bottom: 19px;
 }
 .color-list {
-    margin-left: 34px;
+    margin-left: 49px;
 }
 .color-list li {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
+    margin-left: -20px;
 }
 .color-list li:last-child {
     margin-bottom: 0px;
@@ -44,7 +53,7 @@ main {
     margin-left: 34px;
 }
 .shiping-list li {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 .sidebar-btn-wrapper {
     margin-top: 79px;
@@ -60,7 +69,8 @@ legend {
 
 /* main Цифры слова в форме */
 .sidebar-words:hover {
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     cursor: pointer;
 }
 .button-form {
@@ -74,11 +84,17 @@ legend {
 /* чек-бокс шкала */
 .line-wrapper {
     position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
 }
 .block-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .scale-circl {
     position: absolute;
@@ -119,13 +135,19 @@ legend {
 }
 .checkbox-input:checked + .checkbox-label::after {
     opacity: 1;
-    /* background-color: #FFFFFF; */
 }
 .checkbox-input:disabled + .checkbox-label::before {
     opacity: 1;
 }
+
+.list-input:focus-within {
+    outline: solid 2px #000;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+}
 .checkbox-input:checked + .checkbox-label {
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
 }
 /* Чек-бокс Delivery */
 .radio-label{
@@ -160,7 +182,8 @@ legend {
     opacity: 1;
 }
 .radio-input:checked + .radio-label {
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
 }
 
 /* amount */
@@ -168,6 +191,8 @@ legend {
     margin-right: 46px;
 }
 .amount-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .amount-field {
@@ -176,11 +201,8 @@ legend {
 }
 .list-item {
     width: 80px;
-    margin-top: 6px;
+    margin-top: 10px;
 }
-/* .list-item:focus-within {
-    outline: solid 2px #000;
-} */
 .amount-label {
     display: block;
     padding: 7px;
@@ -219,17 +241,25 @@ legend {
 .amount-input:checked + .amount-label::after {
     opacity: 1;
 }
+.list-item:focus-within {
+    outline: solid 2px #000;
+}
 
 
 
 /* main Секция с Игрушками */
 .items {
     margin-top: 60px;
-    padding-bottom: 65px;
+    padding-bottom: 8px;
 }
 .items-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     margin-bottom: 45px;
     margin-left: -10px;
     margin-right: -10px;    
@@ -247,8 +277,6 @@ legend {
 }
 .items-price {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
     color: #1E0606;
 }
 
