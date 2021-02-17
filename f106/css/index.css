@@ -28,7 +28,8 @@
     cursor: pointer;
 }
 .line:hover,
-.line:active {
+.line:active,
+.line:focus {
     background-color: #1e060699;
     cursor: pointer;
 }
@@ -42,7 +43,7 @@
 }
 
 /*  */
-.monstr-title {
+.slide-title {
     width: 307px;
     text-align: start;
     font-family: Montserrat, sans-serif;
@@ -51,20 +52,21 @@
     line-height: 44px;
     text-transform: uppercase;
 }
-.button-monstr {
+.button-slide {
     padding: 0px;
     margin-top: 20px;
     width: 161px;
     height: 40px;
     border: none;
 }
-.monstr-paragraf {
+.slide-paragraf {
     margin-top: 20px;
     font-family: Crimson Text, sans-serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
+    width: 200px;
 }
 .line-paragraf {
     padding-top: 12px;
@@ -89,10 +91,10 @@
     margin-left: 31px;
 }
 
-.monstr-title-wrapper {
+.slide-title-wrapper {
     margin-left: 71px;
 }
-.monstr-title-wrapper::after { 
+.slide-title-wrapper::after { 
     content: '';
     position: absolute;
     display: block;
@@ -121,9 +123,6 @@
 /* Секция с Категориями*/
 .category {
     margin-top: 91px;
-}
-.categoty-title {
-    text-align: left;
 }
 .category-list {
     display: -webkit-box;
@@ -266,10 +265,6 @@
 .information-delivery-what {
     margin-bottom: 36px;
     width: 480px;
-}
-.delivery-btn-wrapper {
-    width: 149px;
-    height: 40px;
 }
 /* Партнеры */
 

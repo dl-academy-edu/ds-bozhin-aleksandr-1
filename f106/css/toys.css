@@ -26,7 +26,7 @@ main {
     padding: 0px;
     margin-top: 40px;
     margin-bottom: 41px;
-    margin-left: 62px;
+    margin-left: 55px;
     margin-right: 53px;
     border: none;
 }
@@ -71,7 +71,6 @@ legend {
 .sidebar-words:hover {
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
-    cursor: pointer;
 }
 .button-form {
     padding: 0px;
@@ -110,6 +109,7 @@ legend {
 /* Чек-бокс Color*/
 .checkbox-label{
     position: relative;
+    cursor: pointer;
 }
 .checkbox-label::before {
     content: '';
@@ -137,9 +137,14 @@ legend {
     opacity: 1;
 }
 .checkbox-input:disabled + .checkbox-label::before {
-    opacity: 1;
+    background-image: url('../img/checkbox/Vector\ 1.svg');
+    opacity: 0.5;
 }
-
+.checkbox-input:disabled + .sidebar-words {
+    color: #908484;
+    cursor: auto;
+    text-decoration-line: none;
+}
 .list-input:focus-within {
     outline: solid 2px #000;
     -webkit-text-decoration-line: underline;
@@ -149,9 +154,15 @@ legend {
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
 }
+.sidebar-words {
+    font-size: 18px;
+    line-height: 25px;
+    
+}
 /* Чек-бокс Delivery */
 .radio-label{
     position: relative;
+    cursor: pointer;
 }
 .radio-label::before {
     content: '';
@@ -178,9 +189,18 @@ legend {
 .radio-input:checked + .radio-label::after {
     opacity: 1;
 }
-.radio-input:disabled + .radio-label::before {
-    opacity: 1;
+.radio-input:disabled + .radio-label::after {
+    background-image: url('../img/checkbox/Ellipse.svg');
+    opacity: 0.5;
+    cursor: auto;
+    text-decoration-line: none;
 }
+.radio-input:disabled + .sidebar-words {
+    color: #908484;
+    cursor: auto;
+    text-decoration-line: none;
+}
+   
 .radio-input:checked + .radio-label {
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;

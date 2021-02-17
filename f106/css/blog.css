@@ -3,28 +3,24 @@
 
 /* Новости */
 
-.desc-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    margin-bottom: 37px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
+
 .desc {
     margin-right: 10px;
     margin-left: 10px;
+    max-width: 380px;
 }
-.desc-section {
-    margin-bottom: 46px;
+.blog-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 -10px 14px -10px;
 }
-
+.blog-item{
+    width: 380px;
+    margin: 0 10px 26px 10px;
+}
 
 /* main Время Новости */
 .p-time {

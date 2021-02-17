@@ -153,6 +153,7 @@
 .checkbox-label{
     position: relative;
     cursor: pointer;
+    width: 540px;
 }
 .checkbox-label::before {
     content: '';
@@ -180,8 +181,14 @@
     opacity: 1;
 }
 .checkbox-input:disabled + .checkbox-label::before {
-    opacity: 1;
+    background-image: url('../img/checkbox/Vector\ 1.svg');
+    opacity: .5;
 }
+.checkbox-input:disabled + .input-checkbox {
+    color: #908484;
+    cursor: auto;
+}
+
 
 /* Текст */
 .text-wrapper {
