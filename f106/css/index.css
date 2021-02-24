@@ -146,6 +146,7 @@
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
     background-color: #DBE4DB;
 }
 .item-1-text {
@@ -159,6 +160,7 @@
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
     background-color: #EADDD3;
 }
 .item-2-text {
@@ -172,6 +174,7 @@
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
     background-color: #F8F2DA;
 }
 .item-3-text {
@@ -185,6 +188,7 @@
     position: relative;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
     background-color: #D5D4E1;
 }
 .item-4-text {

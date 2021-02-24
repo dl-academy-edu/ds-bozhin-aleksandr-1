@@ -278,47 +278,41 @@ a {
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 100px;
+    padding-top: 23px;
+    margin-top: 14px;
     padding-left: 0px;
     padding-right: 0px;
-    margin-top: 37px;
-    
+    width: 100%;
+    border-top: 1px solid #666666;
 }
-.footer-info-name{
-    margin-bottom: 52px;
+.footer-info-name {
+    padding-bottom: 23px;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #AAAAAA;
+    border-bottom: 1px solid #666666;
 }
 
 /* footer заголовки  */
 .footer-title {
     position: relative;
+    width: 380px;
+    margin-right: 1px;
 }
 .footer-title-wrapper{
+    width: 33%;
     margin-left: 8px;
-}
-.footer-info::before {
-    content: '';
-    position: absolute;
-    top: 46px;
-    width: 380px;
-    height: 1px;
-    background-color: #666666;
-}
-.footer-connect-info::before {
-    content: '';
-    position: absolute;
-    top: 46px;
-    right: 0px;
-    width: 380px;
-    height: 1px;
-    background-color: #666666;
 }
 
 /*  */
 ul.items-link {
-    width: 380px;
+    margin-top: 25px;
+    
+}
+div.items-link {
+    margin: 0 1px;
+    width: 34%;
 }
 
 .items-link a,
@@ -362,6 +356,7 @@ a.items-link-info:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 25px;
 }
 .email-input-footer {
     padding: 9px 11px;
@@ -383,21 +378,8 @@ a.items-link-info:focus {
     border: 1px solid #FFFDFD;
     outline: 0px;
 }
-.items-link .line-footer {
-    margin-right: 110px;
-    margin-left: 276px;
-}
 .line-footer {
-    position: relative; 
-}
-.line-footer::before {
-    content: '';
-    position: absolute;
-    top: -34px;
-    right: -487px;
-    width: 1180px;
-    height: 1px;
-    background-color: #666666;
+    position: relative;
 }
 
 /* ЗВЕЗДЫ */
