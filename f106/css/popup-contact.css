@@ -76,8 +76,9 @@
 }
 .lable-name {
     margin-bottom: 3px;
-    font-size: 14px;
-    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
     cursor: pointer;
 }
 .form-phone-wrapper {
@@ -93,8 +94,9 @@
 .lable-phone {
     margin-bottom: 3px;
     margin-top: 20px;
-    font-size: 14px;
-    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
     cursor: pointer;
 }
 .form-input {
@@ -123,8 +125,9 @@
 .lable-email {
     margin-bottom: 3px;
     margin-top: 20px;
-    font-size: 14px;
-    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
     cursor: pointer;
 }
 .form-message-wrapper {
@@ -139,8 +142,9 @@
 .lable-message {
     margin-bottom: 3px;
     margin-top: 20px;
-    font-size: 14px;
-    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
     cursor: pointer;
 }
 .input-message {
@@ -165,13 +169,15 @@
 }
 .input-checkbox {
     margin-left: 34px;
-    font-size: 14px;
-    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    cursor: pointer;
 }
 /* Чек-бокс */
+
 .checkbox-label{
     position: relative;
-    cursor: pointer;
 }
 .checkbox-label::before {
     content: '';
@@ -181,7 +187,7 @@
     width: 19px;
     height: 19px;    
     border: 2px solid #C29974;
-    border-radius: 3px;
+    border-radius: 3px;   
 }
 .checkbox-label::after {
     content: '';
@@ -198,10 +204,17 @@
 
 .checkbox-input:checked + .checkbox-label::after {
     opacity: 1;
+    cursor: pointer;
 }
- .checkbox-input:disabled + .checkbox-label::before { 
-    opacity: 1;
+.checkbox-input:disabled + .checkbox-label::before { 
+    background-image: url('../img/checkbox/Vector\ 1.svg');
+    opacity: 0.5;
     cursor: auto;
+}
+.checkbox-input:disabled + .input-checkbox {
+    color: #908484;
+    cursor: auto;
+    text-decoration-line: none;
 }
 .checkbox-wrapper:focus-within{
     outline: solid 2px #000;

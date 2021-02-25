@@ -12,9 +12,7 @@ popupBtn.addEventListener('click', function(){
     popupCloseBtn.addEventListener('click', function(){
         popup.classList.remove('popup-contact-open');
         overlay.classList.remove('show');
-    })
+    })  
 
 
 })
-
-
